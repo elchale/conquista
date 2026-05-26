@@ -4,7 +4,7 @@ nombre: Incas (Tahuantinsuyu)
 slug: incas
 tags: [imperio, quechua, sapay-inga]
 ubicaciones_relacionadas: [cuzco, sacsahuaman, ollantaytambo, machu-picchu, vilcabamba, vitcos, yucay]
-personajes_relacionados: [manco-inca, atahualpa, huascar, huayna-capac, pachacuti, tupac-yupanqui, titu-cusi]
+personajes_relacionados: [manco-inca, atahualpa, huascar, huayna-capac, pachacutec, tupac-inca-yupanqui, titu-cusi]
 fuentes_principales: [betanzos-1551, sarmiento-1572, cieza-1553, cobo-1653, molina-cuzqueno, polo-ondegardo-1571, guaman-poma-1615, garcilaso-1609]
 estado: stub
 ultima_revision: 2026-05-19

@@ -8,7 +8,7 @@ slug: huayna-capac
 tags: [sapay-inga, padre-de-todos, pre-conquista, viruela]
 fechas: { nacimiento: "~1467", muerte: "~1527", reinado: "~1493-1527" }
 ubicaciones_relacionadas: [cuzco, tomebamba, quito, ecuador]
-personajes_relacionados: [tupa-inca-yupanqui, huascar, atahualpa, manco-inca, ninan-cuyochi, paullu-inca, rahua-ocllo, contarguacho]
+personajes_relacionados: [tupac-inca-yupanqui, huascar, atahualpa, manco-inca, ninan-cuyochi, paullu-inca, rahua-ocllo, contarguacho]
 fuentes_principales: [betanzos-1551, sarmiento-1572, cieza-1553-parte1, cobo-1653]
 estado: stub
 ultima_revision: 2026-05-21

@@ -8,7 +8,7 @@ slug: cura-ocllo
 tags: [inca, coya, mujer, martirio]
 fechas: { muerte: "~1540" }
 ubicaciones_relacionadas: [cuzco, tambo, vilcabamba, yucay]
-personajes_relacionados: [manco-inca, gonzalo-pizarro, hernando-pizarro, ynguill, oroncoy]
+personajes_relacionados: [manco-inca, gonzalo-pizarro, hernando-pizarro, ynguill]
 fuentes_principales: [titu-cusi-1570, pedro-pizarro-1571, betanzos-1551]
 estado: stub
 ultima_revision: 2026-05-19

@@ -4,7 +4,7 @@ nombre: Chachapoyas
 slug: chachapoyas
 tags: [pre-inca, ceja-de-selva, aliados-espanoles]
 ubicaciones_relacionadas: [kuelap, leymebamba, chachapoyas-ciudad]
-personajes_relacionados: [huayna-capac, tupac-yupanqui, alonso-de-alvarado, guayacondor-canari-aliados]
+personajes_relacionados: [huayna-capac, tupac-inca-yupanqui, alonso-de-alvarado, guayacondor-canari-aliados]
 fuentes_principales: [cieza-1553, garcilaso-1609, kauffmann-doig-2003, schjellerup-1997]
 estado: stub
 ultima_revision: 2026-05-19
