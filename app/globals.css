@@ -57,6 +57,17 @@ html, body {
   @apply text-xs font-sans uppercase tracking-wider text-ink-500 mt-3 mb-1 font-semibold;
 }
 
+/* Collapsible group toggle */
+.tree-toggle {
+  @apply flex w-full items-center gap-1.5 rounded px-1.5 py-1 text-xs font-sans font-semibold uppercase tracking-wider text-ink-500 hover:bg-ink-100 hover:text-ink-700;
+}
+.tree-chevron {
+  @apply text-ink-400 transition-transform duration-150;
+}
+.tree-toggle[aria-expanded="true"] .tree-chevron {
+  transform: rotate(90deg);
+}
+
 /* Leaflet override sin ensuciar global */
 .leaflet-container {
   font-family: theme('fontFamily.serif') !important;
