@@ -1,3 +1,6 @@
+# data backups (auto-created by route scripts)
+content/data/*.backup-*.json
+
 # dependencies
 /node_modules
 /.pnp
