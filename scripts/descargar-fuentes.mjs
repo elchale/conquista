@@ -159,7 +159,7 @@ for (const { f, pick } of candidatas) {
     fs.writeFileSync(target, buf);
     const mb = (buf.length / 1024 / 1024).toFixed(1);
     console.log(`OK (${mb} MB)`);
-    f.pdf_local = path.relative(ROOT, target).replace(/\\/g, "/");
+    f.pdf_local = path.relative(PUBLIC_DIR, target).replace(/\\/g, "/");
     results.descargadas.push({ id: f.id, mb });
   } catch (e) {
     console.log(`ERROR: ${e.message}`);

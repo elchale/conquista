@@ -17,6 +17,7 @@ const TOOL_LINKS: { href: string; label: string }[] = [
   { href: "/mapa", label: "Mapa" },
   { href: "/timeline", label: "Timeline" },
   { href: "/timeline-comparativo", label: "Timeline comparativo" },
+  { href: "/docs", label: "Biblioteca" },
   { href: "/fuentes", label: "Fuentes" },
 ];
 

@@ -596,6 +596,24 @@
           "acceso": "libre",
           "verificado": true,
           "nota": "Edicion Murra/Adorno/Urioste, Siglo XXI 1980, Tomo I. PDF 10.1M."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/primer-nueva-coronica-y-buen-gobierno-vol-1",
+          "tipo": "facsimil",
+          "edicion_tipo": "facsimil_manuscrito",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "FACSIMIL ILUSTRADO vol. 1 (con los ~400 dibujos del manuscrito). PDF 117M — excede el limite de 100M de GitHub, por eso se enlaza en lugar de auto-alojarse."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/primer-nueva-coronica-y-buen-gobierno-vol-2",
+          "tipo": "facsimil",
+          "edicion_tipo": "facsimil_manuscrito",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "FACSIMIL ILUSTRADO vol. 2 (con dibujos). PDF 138M — enlazado por su tamano."
         }
       ],
       "relevancia": "La fuente indigena mas extensa (1189 pp., ~400 dibujos). Critica radical al sistema colonial. Mestizo de Lucanas con ascendencia kuraka local; conocia bien el quechua y aimara.",
@@ -1150,7 +1168,7 @@
       ],
       "relevancia": "Sancho sucedio a Xerez como secretario de Francisco Pizarro y firmo el acta del reparto del rescate. Su relacion oficial continua el relato desde la ejecucion de Atahualpa hasta la marcha a Cuzco e incluye la primera descripcion detallada de la ciudad del Cuzco en el momento de la conquista.",
       "notas": "El original espanol se perdio; el texto sobrevive a traves de la traduccion italiana de Ramusio (Navigationi et Viaggi, 1556) y de ahi a las traducciones modernas.",
-      "pdf_local": "public/docs/primarias/sancho-1534.pdf"
+      "pdf_local": "docs/primarias/sancho-1534.pdf"
     },
     {
       "id": "oviedo-1535",
@@ -1175,7 +1193,7 @@
       ],
       "relevancia": "Primer cronista oficial de Indias. Su libro XLVI trata del Peru y reproduce textualmente la carta-relacion de Hernando Pizarro de 1533 sobre la captura de Atahualpa, documento que de otro modo se habria perdido.",
       "notas": "Obra enciclopedica. Solo la primera parte se imprimio en vida (1535); la edicion completa es postuma. El Peru esta en el tomo IV de la ed. RAH.",
-      "pdf_local": "public/docs/primarias/oviedo-1535.pdf"
+      "pdf_local": "docs/primarias/oviedo-1535.pdf"
     },
     {
       "id": "lopez-gomara-1552",
@@ -1200,7 +1218,7 @@
       ],
       "relevancia": "Capellan de Hernan Cortes; nunca estuvo en America. Sintesis de gran difusion en la Europa del XVI; sus capitulos sobre el Peru se basan en informacion de segunda mano pero fueron muy influyentes.",
       "notas": "Prohibida su reimpresion por cedula real de 1553. El Peru ocupa la parte general (tomo I de la ed. de 1922); el tomo II es la Conquista de Mexico.",
-      "pdf_local": "public/docs/primarias/lopez-gomara-1552.pdf"
+      "pdf_local": "docs/primarias/lopez-gomara-1552.pdf"
     },
     {
       "id": "molina-almagrista-1552",
@@ -1238,7 +1256,7 @@
       ],
       "relevancia": "Denuncia sistematica de las atrocidades de la conquista presentada a Carlos V. Su apartado sobre el Peru (los 'grandes reinos') describe la violencia contra Atahualpa y la poblacion andina. Texto fundacional del debate sobre la justicia de la conquista.",
       "notas": "No es una cronica narrativa sino un tratado polemico; base de la llamada 'leyenda negra'. Imprescindible para entender la critica contemporanea a la conquista.",
-      "pdf_local": "public/docs/primarias/las-casas-1552.pdf"
+      "pdf_local": "docs/primarias/las-casas-1552.pdf"
     },
     {
       "id": "diego-fernandez-1571",
@@ -1272,7 +1290,7 @@
       ],
       "relevancia": "Cronista nombrado para narrar las guerras civiles del Peru. Relato contemporaneo de referencia sobre la rebelion de Gonzalo Pizarro, la llegada de La Gasca y la rebelion de Francisco Hernandez Giron.",
       "notas": "Escrita por encargo oficial con acceso a documentacion de la epoca.",
-      "pdf_local": "public/docs/primarias/diego-fernandez-1571.pdf"
+      "pdf_local": "docs/primarias/diego-fernandez-1571.pdf"
     },
     {
       "id": "cabello-valboa-1586",
@@ -1296,7 +1314,7 @@
       ],
       "relevancia": "Historia universal que desemboca en la prehistoria andina y la genealogia de los incas. Fuente independiente para la cronologia incaica y para tradiciones del norte (Quito), incluida la leyenda de Quilaco y Curicuillor.",
       "notas": "Clerigo de larga estancia en el norte andino. Util para contrastar las genealogias incas de Sarmiento, Betanzos y Cabello Valboa.",
-      "pdf_local": "public/docs/primarias/cabello-valboa-1586.pdf"
+      "pdf_local": "docs/primarias/cabello-valboa-1586.pdf"
     },
     {
       "id": "lizarraga-1605",
@@ -1320,7 +1338,7 @@
       ],
       "relevancia": "Dominico que recorrio el virreinato durante decadas. Descripcion geografica y moral de ciudades, pueblos, caminos y costumbres de la poblacion andina y espanola a fines del siglo XVI.",
       "notas": "Fuente valiosa por sus observaciones directas de la geografia humana del virreinato del Peru.",
-      "pdf_local": "public/docs/primarias/lizarraga-1605.pdf"
+      "pdf_local": "docs/primarias/lizarraga-1605.pdf"
     },
     {
       "id": "agustinos-huamachuco-1560",
@@ -1357,7 +1375,7 @@
       ],
       "relevancia": "Celebre y controvertida por su larga lista de reyes (una supuesta dinastia preincaica de unos cien soberanos), que extiende la cronologia andina muy atras en el tiempo.",
       "notas": "La lista de reyes es vista con escepticismo por la historiografia moderna, pero la obra es un hito en el debate sobre la cronologia andina.",
-      "pdf_local": "public/docs/primarias/montesinos-1644.pdf"
+      "pdf_local": "docs/primarias/montesinos-1644.pdf"
     },
     {
       "id": "herrera-decadas",
@@ -1382,7 +1400,7 @@
       ],
       "relevancia": "Cronista Mayor de Indias. Compilacion oficial que integra y ordena fuentes anteriores (Cieza, Cataño y otras hoy perdidas). La Decada V narra la conquista del Peru y las guerras civiles.",
       "notas": "Obra monumental en 8 decadas (4 tomos). Aqui se cataloga el tomo III por contener el Peru; el conjunto completo es muy voluminoso.",
-      "pdf_local": "public/docs/primarias/herrera-decadas.pdf"
+      "pdf_local": "docs/primarias/herrera-decadas.pdf"
     }
   ],
   "fuentes_no_encontradas": [
