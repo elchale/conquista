@@ -177,6 +177,23 @@ function FuenteCard({ f }: { f: Fuente }) {
             </a>
           ))}
         </div>
+
+        {f.facsimiles && f.facsimiles.length > 0 ? (
+          <div className="mt-1.5 flex flex-wrap items-center gap-1.5 text-xs">
+            <span className="text-ink-500">Facsímil ilustrado:</span>
+            {f.facsimiles.map((fx, i) => (
+              <Link
+                key={i}
+                href={`/${fx.pdf_local}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded bg-accent-gold px-2 py-0.5 font-medium text-ink-50 hover:bg-accent-gold/90"
+              >
+                {fx.vol} ↗
+              </Link>
+            ))}
+          </div>
+        ) : null}
       </div>
     </article>
   );

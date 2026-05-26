@@ -30,6 +30,8 @@ export interface Fuente {
   edicion_recomendada?: string;
   idioma?: string;
   pdf_local?: string;
+  // Volúmenes de facsímil ilustrado alojados localmente (p. ej. Guaman Poma).
+  facsimiles?: { vol: string; pdf_local: string }[];
   urls?: FuenteUrl[];
   relevancia?: string;
   notas?: string;

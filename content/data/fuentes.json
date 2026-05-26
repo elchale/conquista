@@ -604,7 +604,7 @@
           "edicion_tipo": "facsimil_manuscrito",
           "acceso": "libre",
           "verificado": true,
-          "nota": "FACSIMIL ILUSTRADO vol. 1 (con los ~400 dibujos del manuscrito). PDF 117M — excede el limite de 100M de GitHub, por eso se enlaza en lugar de auto-alojarse."
+          "nota": "Origen del facsimil ilustrado vol. 1 (con los ~400 dibujos). Original 117M; auto-alojado comprimido a escala de grises 150dpi (ver facsimiles.pdf_local)."
         },
         {
           "plataforma": "archive.org",
@@ -613,12 +613,16 @@
           "edicion_tipo": "facsimil_manuscrito",
           "acceso": "libre",
           "verificado": true,
-          "nota": "FACSIMIL ILUSTRADO vol. 2 (con dibujos). PDF 138M — enlazado por su tamano."
+          "nota": "Origen del facsimil ilustrado vol. 2 (con dibujos). Original 138M; auto-alojado comprimido a escala de grises 150dpi (ver facsimiles.pdf_local)."
         }
       ],
       "relevancia": "La fuente indigena mas extensa (1189 pp., ~400 dibujos). Critica radical al sistema colonial. Mestizo de Lucanas con ascendencia kuraka local; conocia bien el quechua y aimara.",
-      "notas": "Manuscrito unico, conservado en Copenhague desde la decada de 1660. Redescubierto en 1908 por Pietschmann.",
-      "pdf_local": "docs/primarias/guaman-poma-1615.pdf"
+      "notas": "Manuscrito unico, conservado en Copenhague desde la decada de 1660. Redescubierto en 1908 por Pietschmann. El facsimil ilustrado (los ~400 dibujos) se aloja localmente comprimido a escala de grises 150dpi para entrar bajo el limite de 100M/archivo de GitHub; el PDF principal es la edicion modernizada de Murra.",
+      "pdf_local": "docs/primarias/guaman-poma-1615.pdf",
+      "facsimiles": [
+        { "vol": "Facsímil vol. 1", "pdf_local": "docs/primarias/guaman-poma-1615-facsimil-vol1.pdf" },
+        { "vol": "Facsímil vol. 2", "pdf_local": "docs/primarias/guaman-poma-1615-facsimil-vol2.pdf" }
+      ]
     },
     {
       "id": "garcilaso-1609",
