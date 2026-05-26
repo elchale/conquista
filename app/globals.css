@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  color-scheme: light;
+}
+
+html, body {
+  background: theme('colors.ink.50');
+  color: theme('colors.ink.800');
+  font-family: theme('fontFamily.serif');
+  font-feature-settings: "liga" 1, "kern" 1, "onum" 1;
+}
+
+/* Layout estilo archivero / códice */
+.prose-archivo {
+  @apply max-w-none;
+}
+
+.prose-archivo h1 { @apply text-3xl font-serif font-semibold text-ink-900 mb-4 mt-0 border-b border-ink-200 pb-3; }
+.prose-archivo h2 { @apply text-2xl font-serif font-semibold text-ink-800 mt-8 mb-3; }
+.prose-archivo h3 { @apply text-xl font-serif font-semibold text-ink-700 mt-6 mb-2; }
+.prose-archivo h4 { @apply text-lg font-serif font-semibold text-ink-700 mt-4 mb-2; }
+.prose-archivo p  { @apply leading-relaxed text-ink-800 my-3; }
+.prose-archivo ul { @apply list-disc pl-6 my-3 space-y-1; }
+.prose-archivo ol { @apply list-decimal pl-6 my-3 space-y-1; }
+.prose-archivo blockquote {
+  @apply border-l-4 border-accent-gold/70 pl-4 italic text-ink-700 my-4 bg-ink-100/40 py-2;
+}
+.prose-archivo code {
+  @apply font-mono text-sm bg-ink-100 px-1.5 py-0.5 rounded text-accent-rust;
+}
+.prose-archivo a {
+  @apply text-accent-rust underline decoration-accent-rust/30 underline-offset-2 hover:decoration-accent-rust;
+}
+.prose-archivo hr { @apply border-ink-200 my-6; }
+.prose-archivo table { @apply border-collapse my-4 text-sm; }
+.prose-archivo th, .prose-archivo td { @apply border border-ink-200 px-3 py-1.5; }
+.prose-archivo th { @apply bg-ink-100 font-semibold; }
+
+/* Citation footnote markers */
+.citation-marker {
+  @apply text-accent-gold text-xs align-super font-mono no-underline hover:underline cursor-pointer;
+}
+
+/* Sidebar tree */
+.tree-item {
+  @apply text-sm font-sans cursor-pointer rounded px-1.5 py-0.5 hover:bg-ink-100 text-ink-700;
+}
+.tree-item.active {
+  @apply bg-ink-200 text-ink-900 font-semibold;
+}
+.tree-folder {
+  @apply text-xs font-sans uppercase tracking-wider text-ink-500 mt-3 mb-1 font-semibold;
+}
+
+/* Leaflet override sin ensuciar global */
+.leaflet-container {
+  font-family: theme('fontFamily.serif') !important;
+  background: theme('colors.ink.100') !important;
+}

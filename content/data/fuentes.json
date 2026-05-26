@@ -1,0 +1,1580 @@
+{
+  "metadata": {
+    "descripcion": "Archivo curado de URLs verificadas a PDFs y ediciones digitales en dominio publico u open-access de fuentes primarias y secundarias sobre la conquista espanola del imperio inca (1527-1572)",
+    "fecha_compilacion": "2026-05-19",
+    "convenciones": {
+      "tipo_url": "pdf = PDF directo descargable; landing = pagina de detalle con boton de descarga; html = transcripcion HTML; facsimil = imagenes del manuscrito",
+      "acceso": "libre = dominio publico, descarga sin restriccion; borrow = en copyright, prestamo via Internet Archive lending; restringido = requiere autenticacion institucional",
+      "edicion_tipo": "facsimil_manuscrito | edicion_princeps | transcripcion_paleografica | edicion_modernizada | traduccion_ingles | traduccion_frances"
+    },
+    "notas_generales": [
+      "Para Archive.org, todas las URLs apuntan a /details/ para que el usuario pueda elegir el formato (PDF, EPUB, texto plano). Los PDFs directos en /download/ tienen URLs volatiles.",
+      "Algunas obras secundarias modernas estan en archive.org solo como 'borrow' (prestamo digital de 1 hora renovable). Se indican como acceso=borrow.",
+      "Para Cervantes Virtual, la pagina /obra/ es la canonica. El boton 'Documento PDF' descarga la version actual.",
+      "Para Memoria Chilena, la pagina del autor lista los documentos; el PDF se descarga desde la ficha del libro individual."
+    ]
+  },
+  "fuentes": [
+    {
+      "id": "xerez-1534",
+      "tipo": "primaria",
+      "categoria": "cronista_testigo_hispano",
+      "autor": "Francisco de Xerez (Jerez)",
+      "titulo": "Verdadera relacion de la conquista del Peru y provincia del Cuzco llamada la Nueva Castilla",
+      "fecha_original": 1534,
+      "lugar_original": "Sevilla",
+      "edicion_recomendada": "Facsimil de la edicion princeps de 1534 (Sevilla); tambien hay edicion modernizada de la coleccion Cronicas de America",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/verdadera-relacion-de-la-conquista-del-peru",
+          "tipo": "landing",
+          "edicion_tipo": "facsimil_manuscrito",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Facsimil edicion princeps 1534. PDF 2.7M (basico) o 6.9M (con OCR)."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/verdaderarelaci00xere",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion modernizada del siglo XIX/XX (Espasa-Calpe / colecciones similares)."
+        }
+      ],
+      "relevancia": "Testigo presencial en Cajamarca; secretario de Francisco Pizarro. Primera fuente impresa sobre la captura de Atahualpa.",
+      "notas": "Junto con Mena, es la fuente impresa mas temprana. Termina con el reparto del rescate de Cajamarca.",
+      "pdf_local": "docs/primarias/xerez-1534.pdf"
+    },
+    {
+      "id": "mena-1534",
+      "tipo": "primaria",
+      "categoria": "cronista_testigo_hispano",
+      "autor": "Cristobal de Mena (publicado anonimamente)",
+      "titulo": "La conquista del Peru, llamada la Nueva Castilla",
+      "fecha_original": 1534,
+      "lugar_original": "Sevilla",
+      "edicion_recomendada": "Edicion de la New York Public Library / reediciones modernas. La autoria de Mena fue establecida por Raul Porras Barrenechea.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "intiyana.org",
+          "url": "https://intiyana.org/bibliodig/files/original/d508640fc6312f4e34d72d250399b60e3ccc7a67.pdf",
+          "tipo": "pdf",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion de 1930. PDF descargable directo. Repositorio peruano IntiYana."
+        }
+      ],
+      "relevancia": "Primera relacion impresa de la conquista (abril 1534, anterior a Xerez por meses). Testigo presencial.",
+      "notas": "Publicado anonimamente. Atribucion a Mena por Raul Porras Barrenechea. Mas breve que Xerez.",
+      "pdf_local": "docs/primarias/mena-1534.pdf"
+    },
+    {
+      "id": "estete-1535",
+      "tipo": "primaria",
+      "categoria": "cronista_testigo_hispano",
+      "autor": "Miguel de Estete",
+      "titulo": "Noticia del Peru (de los papeles del Arca de Santa Cruz)",
+      "fecha_original": 1535,
+      "edicion_recomendada": "Edicion de Cervantes Virtual a partir de Poesia popular, alcances y apendice (Mexico, 1960); tambien hay edicion en archive.org de 1535.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "cervantesvirtual.com",
+          "url": "https://www.cervantesvirtual.com/obra/noticia-del-peru-de-los-papeles-del-arca-de-santa-cruz-de-miguel-de-estete/",
+          "tipo": "landing",
+          "edicion_tipo": "transcripcion_paleografica",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion digital de la Biblioteca Virtual Miguel de Cervantes (2009). No tiene PDF directo descargable; lectura en linea."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/noticias-del-peru",
+          "tipo": "landing",
+          "edicion_tipo": "transcripcion_paleografica",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "PDF 302K. Identificador ark:/13960/t0qs49r0b."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/historia-de-los-incas-y-conquista-del-peru",
+          "tipo": "landing",
+          "edicion_tipo": "transcripcion_paleografica",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion compilada de 'Historia de los Incas y conquista del Peru' atribuida a Estete. PDF 10.3M."
+        }
+      ],
+      "relevancia": "Testigo del avance de Hernando Pizarro a Pachacamac y de la entrada en Cuzco. Detalles geograficos y rituales.",
+      "notas": "Su relacion sobre Pachacamac (parte del informe de Xerez) es distinta de la 'Noticia del Peru' mas extensa.",
+      "pdf_local": "docs/primarias/estete-1535.pdf"
+    },
+    {
+      "id": "hernando-pizarro-1533",
+      "tipo": "primaria",
+      "categoria": "carta_relacion",
+      "autor": "Hernando Pizarro",
+      "titulo": "Carta-relacion a los oidores de la Audiencia de Santo Domingo (23 noviembre 1533)",
+      "fecha_original": 1533,
+      "lugar_original": "Santa Maria del Puerto (Yaguana, La Espanola)",
+      "edicion_recomendada": "Incluida en Oviedo, Historia general y natural de las Indias (libro XLVI, cap. XV); tambien en Coleccion de Documentos Ineditos.",
+      "idioma": "es",
+      "urls": [],
+      "relevancia": "Primera comunicacion oficial sobre la captura de Atahualpa, escrita en ruta a Espana con la quinta real.",
+      "notas": "NO VERIFICADO ONLINE como descarga libre. Existe en Cervantes Virtual una 'Carta de Hernando Pizarro a Carlos V sobre asuntos de Peru' (1541), que es un documento distinto. La carta de 1533 a Santo Domingo se encuentra dentro de Oviedo (vease archive.org/details/coronicadelasind00fern) o en compilaciones documentales. Buscar en Coleccion de Documentos Ineditos para la Historia de Espana, tomo XLII (Madrid, 1865)."
+    },
+    {
+      "id": "pedro-pizarro-1571",
+      "tipo": "primaria",
+      "categoria": "cronista_testigo_hispano",
+      "autor": "Pedro Pizarro",
+      "titulo": "Relacion del descubrimiento y conquista de los reinos del Peru",
+      "fecha_original": 1571,
+      "edicion_recomendada": "Edicion de 1986 (PUCP, ed. Guillermo Lohmann Villena con estudio preliminar de Pierre Duviols) es la critica de referencia.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/pizarro-pedro.-relacion-del-descubrimiento-y-conquista-de-los-reinos-del-peru-ocr-1986",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion PUCP 1986 (Lohmann Villena/Duviols). PDF 32.1M con OCR."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/in.ernet.dli.2015.88497",
+          "tipo": "landing",
+          "edicion_tipo": "traduccion_ingles",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Traduccion al ingles de Philip Ainsworth Means (Cortes Society, 1921). Volumen I. PDF 21.5M."
+        }
+      ],
+      "relevancia": "Testigo presencial desde 1530 (acompano a su primo Francisco como paje). Vivio toda la conquista hasta las guerras civiles. Manuscrito original perdido; copia unica en Huntington Library.",
+      "notas": "Escrito en Arequipa hacia 1571 a peticion del virrey Toledo. Una de las cronicas mas detalladas de testigo ocular.",
+      "pdf_local": "docs/primarias/pedro-pizarro-1571.pdf"
+    },
+    {
+      "id": "trujillo-1571",
+      "tipo": "primaria",
+      "categoria": "cronista_testigo_hispano",
+      "autor": "Diego de Trujillo",
+      "titulo": "Relacion del descubrimiento del reyno del Peru",
+      "fecha_original": 1571,
+      "edicion_recomendada": "Edicion de Raul Porras Barrenechea, Sevilla, CSIC/Escuela de Estudios Hispano-Americanos, 1948 (124 pp.).",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "memoriachilena.gob.cl",
+          "url": "https://www.memoriachilena.gob.cl/602/w3-propertyvalue-128565.html",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Pagina de autor de Memoria Chilena con la edicion Porras 1948. El PDF descargable se accede desde la ficha del libro individual en bibliotecanacionaldigital.gob.cl."
+        }
+      ],
+      "relevancia": "Soldado raso (no oficial). Testigo presencial desde el tercer viaje de Pizarro (1530) hasta la entrada en Cuzco (1533). Vision 'desde abajo'.",
+      "notas": "Manuscrito catalogado anonimamente durante 400 anos; descubierto por Porras en la Biblioteca del Palacio Real de Madrid en 1934 y atribuido a Trujillo. Pendiente verificar PDF directo en biblioteca digital BNCh."
+    },
+    {
+      "id": "cieza-1553-parte1",
+      "tipo": "primaria",
+      "categoria": "cronista_hispano",
+      "autor": "Pedro Cieza de Leon",
+      "titulo": "Cronica del Peru, Primera parte",
+      "fecha_original": 1553,
+      "lugar_original": "Sevilla",
+      "edicion_recomendada": "Edicion de Manuel Ballesteros (Madrid, Historia 16, 1984) es la moderna mas usada; la edicion princeps de 1553 esta digitalizada.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/cronica-del-peru-parte-1",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "PDF 19.5M con OCR. Edicion modernizada."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/PartePrimeraDeLaChronicaDelPeru",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_princeps",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Facsimil de la edicion de 1553 (Sevilla)."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/lacrnicadelper00ciez",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion Calpe, Madrid 1922."
+        }
+      ],
+      "relevancia": "Geografia y descripcion de provincias del Peru. Cieza es considerado el 'principe de los cronistas'. Recorrio el territorio entre 1547-1550.",
+      "notas": "Unica parte publicada en vida del autor (1553).",
+      "pdf_local": "docs/primarias/cieza-1553-parte1.pdf"
+    },
+    {
+      "id": "cieza-1554-parte2",
+      "tipo": "primaria",
+      "categoria": "cronista_hispano",
+      "autor": "Pedro Cieza de Leon",
+      "titulo": "Segunda parte de la Cronica del Peru: El Senorio de los Incas",
+      "fecha_original": 1554,
+      "edicion_recomendada": "Edicion de Marcos Jimenez de la Espada, Madrid, 1880 (primera publicacion). Edicion moderna: Carlos Araníbar, IEP-Petroperu, 1985.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/segundaparte00ciezrich",
+          "tipo": "landing",
+          "edicion_tipo": "transcripcion_paleografica",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion princeps de Jimenez de la Espada, Madrid 1880."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/cronica-del-peru-parte-2",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion moderna del Senorio de los Incas."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/cronica-del-peru-el-senorio-de-los-incas",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Otra version digitalizada."
+        }
+      ],
+      "relevancia": "Historia del Tahuantinsuyo: dinastia inca, organizacion, religion. Fuente fundamental etnohistorica.",
+      "notas": "Manuscrito inedito hasta 1880. Cieza murio en 1554 antes de publicar.",
+      "pdf_local": "docs/primarias/cieza-1554-parte2.pdf"
+    },
+    {
+      "id": "cieza-parte4-guerras-civiles",
+      "tipo": "primaria",
+      "categoria": "cronista_hispano",
+      "autor": "Pedro Cieza de Leon",
+      "titulo": "Guerras civiles del Peru (Cuarta parte de la Cronica): Guerra de las Salinas, Guerra de Chupas, Guerra de Quito",
+      "fecha_original": 1554,
+      "edicion_recomendada": "Edicion de Jimenez de la Espada y Manuel Serrano y Sanz, Madrid 1877-1909 (Coleccion de Libros Espanoles Raros o Curiosos).",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/guerrascivilesde00ciez",
+          "tipo": "landing",
+          "edicion_tipo": "transcripcion_paleografica",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion Madrid 1877. Cubre las guerras civiles entre conquistadores."
+        }
+      ],
+      "relevancia": "Cubre las guerras civiles post-conquista (Pizarro vs Almagro, rebelion de Gonzalo Pizarro, etc.).",
+      "notas": "La Tercera parte (Descubrimiento y conquista) se perdio en gran parte hasta el siglo XX (recuperada por Francesca Cantu en 1979 del manuscrito Vaticano).",
+      "pdf_local": "docs/primarias/cieza-parte4-guerras-civiles.pdf"
+    },
+    {
+      "id": "betanzos-1551",
+      "tipo": "primaria",
+      "categoria": "cronista_hispano_bilingue",
+      "autor": "Juan Diez de Betanzos",
+      "titulo": "Suma y narracion de los Incas",
+      "fecha_original": 1551,
+      "edicion_recomendada": "Edicion de Maria del Carmen Martin Rubio, Madrid, Atlas, 1987 (incluye los capitulos descubiertos en Palma de Mallorca en 1987). Edicion princeps incompleta: Jimenez de la Espada 1880.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/suma-y-narracion-de-los-incas",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "PDF 14.4M. OCR 93%."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/betanzos-juan-de.-suma-y-narracion-de-los-incas-1880",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_princeps",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion Jimenez de la Espada, Madrid 1880 (parcial)."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/betanzos-juan-de.-suma-y-narracion-de-los-incas-epl-1558-2019",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion digital moderna 2019."
+        }
+      ],
+      "relevancia": "Casado con dona Angelina Yupanqui (sobrina de Atahualpa y exmujer de Pizarro). Quechuista oficial del Cuzco. Acceso directo a la nobleza incaica de Cuzco a traves de informantes del panaca de Pachacuti.",
+      "notas": "Crucial por su perspectiva pro-Pachacuti/pro-Cuzco. La version completa solo se conoce desde 1987.",
+      "pdf_local": "docs/primarias/betanzos-1551.pdf"
+    },
+    {
+      "id": "zarate-1555",
+      "tipo": "primaria",
+      "categoria": "cronista_hispano",
+      "autor": "Agustin de Zarate",
+      "titulo": "Historia del descubrimiento y conquista del Peru",
+      "fecha_original": 1555,
+      "lugar_original": "Amberes (Casa de Martin Nucio)",
+      "edicion_recomendada": "Edicion princeps Amberes 1555. Edicion moderna: BAE tomo XXVI (Madrid 1947).",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/zaratea.d.1555.historiadeldescubrimientoyconquistadelperuconlascosasnaturalesque",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_princeps",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Facsimil edicion princeps Amberes 1555. PDF 12.2M. Dominio publico."
+        }
+      ],
+      "relevancia": "Contador del rey enviado a Peru en 1543. Cubre hasta la derrota de Gonzalo Pizarro (1548). Acceso a documentacion oficial.",
+      "notas": "Una de las cronicas mas leidas en su epoca; traducida pronto a varios idiomas.",
+      "pdf_local": "docs/primarias/zarate-1555.pdf"
+    },
+    {
+      "id": "sarmiento-1572",
+      "tipo": "primaria",
+      "categoria": "cronista_oficial_toledano",
+      "autor": "Pedro Sarmiento de Gamboa",
+      "titulo": "Historia indica (Historia de los Incas) - Segunda parte de la Historia general llamada Indica",
+      "fecha_original": 1572,
+      "lugar_original": "Cuzco",
+      "edicion_recomendada": "Edicion de Richard Pietschmann, Berlin 1906 (princeps moderna). Edicion en espanol moderna: Angel Rosenblat, Buenos Aires 1947.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/historyofincas00sarm",
+          "tipo": "landing",
+          "edicion_tipo": "traduccion_ingles",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Traduccion al ingles de Clements Markham, Hakluyt Society, Cambridge 1907. PDF 26.5M. Incluye el relato de Baltasar de Ocampo sobre Vilcabamba."
+        }
+      ],
+      "relevancia": "Encargada por el virrey Francisco de Toledo como base ideologica para legitimar el dominio espanol (los incas como tiranos recientes). Fuente clave sobre genealogia inca, basada en interrogatorios a 42 kurakas de panacas en Cuzco.",
+      "notas": "El manuscrito espanol original estuvo perdido hasta 1893, cuando fue encontrado por Pietschmann en la Biblioteca de Gottingen (ms. hist. 809). Las ediciones en espanol del manuscrito Gottingen son mas dificiles de encontrar online en dominio publico; recomendar consultar ediciones modernas (Polifemo, Miraguano).",
+      "pdf_local": "docs/primarias/sarmiento-1572.pdf"
+    },
+    {
+      "id": "polo-ondegardo-1571",
+      "tipo": "primaria",
+      "categoria": "informe_administrativo",
+      "autor": "Juan Polo de Ondegardo y Zarate",
+      "titulo": "Informaciones acerca de la religion y gobierno de los Incas (Notables danos de no guardar a los indios sus fueros; Relacion de los adoratorios y huacas)",
+      "fecha_original": 1571,
+      "edicion_recomendada": "Edicion Horacio Urteaga, Coleccion de libros y documentos referentes a la historia del Peru, Lima 1916-1917, tomos III y IV.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "simurg.csic.es",
+          "url": "http://simurg.csic.es/view/990000128800204201_V02/informaciones-acerca-de-la-religion-y-gobierno-de-los-incas-seguidas-de-las-instrucciones-de-los-concilios-de-lima-1a-parte-y-del-estado-2a-parte-vol-2",
+          "tipo": "landing",
+          "edicion_tipo": "transcripcion_paleografica",
+          "acceso": "libre",
+          "verificado": false,
+          "nota": "Edicion Urteaga vol. 2 en biblioteca digital del CSIC. PENDIENTE verificar acceso a PDF (URL larga, posible problema de redireccion)."
+        }
+      ],
+      "relevancia": "Jurista y corregidor del Cuzco. Sus 'informaciones' son la base de la administracion colonial andina y de los datos etnograficos de Bernabe Cobo (libro 13). Documenta sistema de ceques, mita, tributo prehispanico.",
+      "notas": "Recomendar buscar la edicion Urteaga 1916-1917 en HathiTrust o archive.org (existen copias pero verificacion fue parcial)."
+    },
+    {
+      "id": "molina-cuzqueno-1575",
+      "tipo": "primaria",
+      "categoria": "cronista_extirpacion",
+      "autor": "Cristobal de Molina ('el Cuzqueno')",
+      "titulo": "Relacion de las fabulas y ritos de los Incas",
+      "fecha_original": 1575,
+      "edicion_recomendada": "Edicion critica de Paloma Jimenez del Campo / Paloma Cuenca Munoz (Iberoamericana-Vervuert, 2010). Edicion antigua: Thayer Ojeda, Lima 1916.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/relacion-de-las-fabulas-y-ritos-de-los-incas",
+          "tipo": "landing",
+          "edicion_tipo": "transcripcion_paleografica",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "PDF 17.0M, OCR 98.5%."
+        }
+      ],
+      "relevancia": "Parroco de la parroquia indigena de Nuestra Senora de los Remedios en Cuzco; quechuista. Fuente fundamental para mitologia inca, calendario ritual (Capac Raymi, Inti Raymi, Citua), y oraciones quechuas.",
+      "notas": "No confundir con Cristobal de Molina 'el Almagrista' (1552), cronista distinto.",
+      "pdf_local": "docs/primarias/molina-cuzqueno-1575.pdf"
+    },
+    {
+      "id": "acosta-1590",
+      "tipo": "primaria",
+      "categoria": "cronista_jesuita",
+      "autor": "Jose de Acosta SJ",
+      "titulo": "Historia natural y moral de las Indias",
+      "fecha_original": 1590,
+      "lugar_original": "Sevilla (Juan de Leon)",
+      "edicion_recomendada": "Edicion princeps Sevilla 1590. Edicion moderna: Edmundo O'Gorman, FCE Mexico 1962.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/historianatvraly00acos",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_princeps",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Facsimil edicion princeps Sevilla 1590 (Juan de Leon). PDF 55.4M. Dominio publico."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/historia-natural-y-moral-de-las-indias-tomo-i-jose-de-acosta",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion modernizada Tomo I."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/historia-natural-y-moral-de-las-indias-tomo-ii-jose-de-acosta",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion modernizada Tomo II."
+        }
+      ],
+      "relevancia": "Jesuita en Peru 1572-1586. Sintesis filosofica y etnografica. Libros V-VII tratan especificamente del Peru y los Incas. Influencia inmensa en Europa.",
+      "notas": "Los libros I-II aparecieron primero en latin (De natura Novi Orbis, Salamanca 1588).",
+      "pdf_local": "docs/primarias/acosta-1590.pdf"
+    },
+    {
+      "id": "cobo-1653",
+      "tipo": "primaria",
+      "categoria": "cronista_jesuita_tardio",
+      "autor": "Bernabe Cobo SJ",
+      "titulo": "Historia del Nuevo Mundo",
+      "fecha_original": 1653,
+      "edicion_recomendada": "Edicion Marcos Jimenez de la Espada, Sevilla 1890-1895 (4 vols., princeps moderna). Edicion: Francisco Mateos, BAE tomos XCI-XCII (Madrid 1956).",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/historia-del-nuevo-mundo-vol-1",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Volumen 1. PDF 37.8M."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/historia-del-nuevo-mundo-vol-2",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Volumen 2."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/A331002",
+          "tipo": "landing",
+          "edicion_tipo": "facsimil_manuscrito",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Manuscrito original de la Biblioteca de la Universidad de Sevilla (1653)."
+        }
+      ],
+      "relevancia": "Compilacion sintetica posterior. Su libro 13 (Religion del Peru) reproduce textualmente partes perdidas de Polo de Ondegardo, incluyendo la lista completa de las huacas del sistema de ceques del Cuzco.",
+      "notas": "Fuente tardia pero fundamental por preservar materiales del siglo XVI hoy perdidos.",
+      "pdf_local": "docs/primarias/cobo-1653.pdf"
+    },
+    {
+      "id": "murua-historia-general",
+      "tipo": "primaria",
+      "categoria": "cronista_mercedario",
+      "autor": "Martin de Murua OdeM",
+      "titulo": "Historia general del Peru (manuscritos Galvin / Wellington-Getty)",
+      "fecha_original": "1590-1616",
+      "edicion_recomendada": "Edicion de Manuel Ballesteros (Madrid, Historia 16, 1987) basada en el manuscrito Wellington/Getty (Ludwig XIII 16). Facsimil del manuscrito Galvin: Testimonio Companhia Editorial, Madrid 2004 (edicion limitada).",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "marble.nd.edu",
+          "url": "https://marble.nd.edu/item/002083855",
+          "tipo": "landing",
+          "edicion_tipo": "facsimil_manuscrito",
+          "acceso": "restringido",
+          "verificado": false,
+          "nota": "Registro del Codice Galvin en Marble (University of Notre Dame). El facsimil completo no esta abiertamente en linea; solo el registro catalografico."
+        },
+        {
+          "plataforma": "doaks.org",
+          "url": "https://www.doaks.org/resources/rare-books/ca3dice-muraoa-historia-y-genealogaa-de-los-reyes-incas-del-perao-del-padre-mercenario-fray-martan-de-muraoa-ca3dice-galvin",
+          "tipo": "landing",
+          "edicion_tipo": "facsimil_manuscrito",
+          "acceso": "restringido",
+          "verificado": false,
+          "nota": "Dumbarton Oaks. Solo registro; el facsimil impreso de 2004 fue edicion limitada de 980 ejemplares."
+        }
+      ],
+      "relevancia": "Fraile mercedario; segundo gran cronista mestizo/iluminador junto con Guaman Poma. Sus manuscritos comparten ilustradores con Nueva Coronica. Manuscrito Galvin (Dublin) y Wellington/Getty (Los Angeles) son las dos versiones principales.",
+      "notas": "NO HAY facsimil completo gratis online. Los facsimiles de Testimonio/Getty son ediciones de coleccion. Buscar la edicion modernizada de Ballesteros 1987 (Historia 16) en bibliotecas fisicas o el estudio del Getty (link a PDF abajo)."
+    },
+    {
+      "id": "guaman-poma-1615",
+      "tipo": "primaria",
+      "categoria": "cronista_indigena",
+      "autor": "Felipe Guaman Poma de Ayala",
+      "titulo": "El primer nueva coronica y buen gobierno",
+      "fecha_original": 1615,
+      "edicion_recomendada": "Facsimil digital de la Det Kongelige Bibliotek (Royal Danish Library, Copenhagen), manuscrito GKS 2232 4to. Edicion critica: John V. Murra y Rolena Adorno (Siglo XXI, Mexico 1980, 3 vols.).",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "kb.dk",
+          "url": "https://poma.kb.dk/permalink/2006/poma/info/es/frontpage.htm",
+          "tipo": "facsimil",
+          "edicion_tipo": "facsimil_manuscrito",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Facsimil digital completo de las 1189 paginas del manuscrito original. Centro de Investigacion Digital de la Biblioteca Real de Dinamarca. UNESCO Memoria del Mundo (2007)."
+        },
+        {
+          "plataforma": "kb.dk",
+          "url": "https://poma.kb.dk/permalink/2006/poma/info/en/frontpage.htm",
+          "tipo": "facsimil",
+          "edicion_tipo": "facsimil_manuscrito",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Version en ingles del sitio."
+        },
+        {
+          "plataforma": "cervantesvirtual.com",
+          "url": "https://www.cervantesvirtual.com/obra/nueva-cronica-y-buen-gobierno-de-felipe-guaman-poma-de-ayala-1615/",
+          "tipo": "landing",
+          "edicion_tipo": "transcripcion_paleografica",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Estudio critico de Roberto Viereck Salinas + transcripcion en BVMC. Boton 'Documento PDF' descarga el PDF directo."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/guaman-poma-de-ayala-felipe.-nueva-coronica.-tomo-i-ocr-1980",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion Murra/Adorno/Urioste, Siglo XXI 1980, Tomo I. PDF 10.1M."
+        }
+      ],
+      "relevancia": "La fuente indigena mas extensa (1189 pp., ~400 dibujos). Critica radical al sistema colonial. Mestizo de Lucanas con ascendencia kuraka local; conocia bien el quechua y aimara.",
+      "notas": "Manuscrito unico, conservado en Copenhague desde la decada de 1660. Redescubierto en 1908 por Pietschmann.",
+      "pdf_local": "docs/primarias/guaman-poma-1615.pdf"
+    },
+    {
+      "id": "garcilaso-1609",
+      "tipo": "primaria",
+      "categoria": "cronista_mestizo",
+      "autor": "Inca Garcilaso de la Vega",
+      "titulo": "Primera parte de los Comentarios Reales que tratan del origen de los Incas",
+      "fecha_original": 1609,
+      "lugar_original": "Lisboa (Pedro Crasbeeck)",
+      "edicion_recomendada": "Edicion princeps Lisboa 1609. Edicion moderna: Carmelo Saenz de Santa Maria, BAE tomos CXXXII-CXXXIV (Madrid 1960).",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/primerapartedelo00vega",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_princeps",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Facsimil edicion princeps Lisboa 1609 (John Carter Brown Library). PDF B/W 68.3M o color 79.7M."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/comentarios-reales-de-los-incas",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion modernizada moderna."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/de-la-vega-garcilaso-inca.-comentarios-reales.-tomo-i-ocr-1985",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion 1985 con OCR."
+        }
+      ],
+      "relevancia": "Hijo del conquistador Sebastian Garcilaso y la princesa Chimpu Ocllo (sobrina de Huayna Capac). Crio en Cuzco hasta los 21 anos. Vision idealizada del Tahuantinsuyu como utopia preincaica.",
+      "notas": "La Primera parte cubre la historia inca prehispanica.",
+      "pdf_local": "docs/primarias/garcilaso-1609.pdf"
+    },
+    {
+      "id": "garcilaso-1617",
+      "tipo": "primaria",
+      "categoria": "cronista_mestizo",
+      "autor": "Inca Garcilaso de la Vega",
+      "titulo": "Historia general del Peru (Segunda parte de los Comentarios Reales)",
+      "fecha_original": 1617,
+      "lugar_original": "Cordoba (postuma)",
+      "edicion_recomendada": "Edicion princeps Cordoba 1617. Edicion moderna: Angel Rosenblat, Buenos Aires 1944.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/historia-general-del-peru",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "PDF 3.5M."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/historiagenerald0000garc",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Edicion segunda parte vol. 1."
+        }
+      ],
+      "relevancia": "Cubre la conquista espanola y las guerras civiles. Fuente influyente pero tardia (escrita 70 anos despues de los hechos, en Espana, con materiales de segunda mano).",
+      "notas": "Publicada postumamente. Garcilaso murio en 1616.",
+      "pdf_local": "docs/primarias/garcilaso-1617.pdf"
+    },
+    {
+      "id": "titu-cusi-1570",
+      "tipo": "primaria",
+      "categoria": "voz_indigena",
+      "autor": "Diego de Castro Titu Cusi Yupanqui (dictado a fray Marcos Garcia y Martin de Pando)",
+      "titulo": "Instruccion del Inga don Diego de Castro Titu Cusi Yupanqui al licenciado Lope Garcia de Castro",
+      "fecha_original": 1570,
+      "edicion_recomendada": "Edicion critica de Liliana Regalado de Hurtado, Pontificia Universidad Catolica del Peru, 1992.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "revistas.pucp.edu.pe",
+          "url": "https://revistas.pucp.edu.pe/index.php/historica/article/download/3793/3770",
+          "tipo": "pdf",
+          "edicion_tipo": "transcripcion_paleografica",
+          "acceso": "libre",
+          "verificado": false,
+          "nota": "Articulo de Liliana Regalado sobre la Instruccion. Acceso a PDF en revista Historica de PUCP."
+        }
+      ],
+      "relevancia": "Unico testimonio escrito de un Inca soberano. Titu Cusi era hijo de Manco Inca y gobernaba Vilcabamba (1563-1571). Narra la conquista desde la perspectiva indigena y propone negociacion con la corona.",
+      "notas": "Dictado en quechua, traducido por el agustino Marcos Garcia y copiado por el mestizo Martin de Pando. Manuscrito en el Monasterio de El Escorial. La edicion critica de Regalado 1992 NO se encuentra abiertamente como PDF; solo articulos derivados."
+    },
+    {
+      "id": "pachacuti-yamqui",
+      "tipo": "primaria",
+      "categoria": "voz_indigena_mestiza",
+      "autor": "Joan de Santa Cruz Pachacuti Yamqui Salcamaygua",
+      "titulo": "Relacion de antiguedades deste reyno del Piru",
+      "fecha_original": "~1613",
+      "edicion_recomendada": "Edicion princeps: Marcos Jimenez de la Espada, Tres relaciones de antiguedades peruanas, Madrid 1879. Edicion critica moderna: Pierre Duviols y Cesar Itier, IFEA-CBC, Cusco 1993.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "intiyana.org",
+          "url": "https://intiyana.org/bibliodig/files/original/ab9a28881cbe0bc650a4b7ca4dab7e4bdf13e6bc.pdf",
+          "tipo": "pdf",
+          "edicion_tipo": "transcripcion_paleografica",
+          "acceso": "libre",
+          "verificado": false,
+          "nota": "PDF directo en repositorio IntiYana (Peru). El servidor devuelve binario PDF correctamente."
+        }
+      ],
+      "relevancia": "Curaca indigena cristianizado de la region Canas-Canchis. Mezcla castellano rudimentario, quechua y aimara. Contiene el famoso dibujo del altar mayor del Coricancha y el sistema cosmologico andino.",
+      "notas": "Manuscrito en BNE Madrid, ms. 3169. La edicion Duviols-Itier 1993 (IFEA) NO es open access (requiere institucion). Edicion Jimenez de la Espada 1879 esta en dominio publico pero falta ubicar facsimil en archive.org."
+    },
+    {
+      "id": "ortiz-zuniga-1562",
+      "tipo": "primaria",
+      "categoria": "visita_administrativa",
+      "autor": "Inigo Ortiz de Zuniga",
+      "titulo": "Visita de la provincia de Leon de Huanuco en 1562 (2 vols., ed. John V. Murra)",
+      "fecha_original": 1562,
+      "edicion_recomendada": "Edicion paleografica de John V. Murra, Universidad Nacional Hermilio Valdizan, Huanuco, Tomo I (1967) y Tomo II (1972).",
+      "idioma": "es",
+      "urls": [],
+      "relevancia": "Fuente fundamental para entender la organizacion social y economica andina post-conquista. La introduccion etnologica de Murra es la base de su tesis sobre el 'archipielago vertical'.",
+      "notas": "NO ENCONTRADO en plataformas open access verificables. La edicion Murra 1967/1972 no parece estar digitalizada con acceso libre. Buscar en bibliotecas universitarias (UNMSM, PUCP, Universidad Hermilio Valdizan)."
+    },
+    {
+      "id": "diez-san-miguel-1567",
+      "tipo": "primaria",
+      "categoria": "visita_administrativa",
+      "autor": "Garci Diez de San Miguel",
+      "titulo": "Visita hecha a la provincia de Chucuito por Garci Diez de San Miguel en el ano 1567",
+      "fecha_original": 1567,
+      "edicion_recomendada": "Edicion paleografica de Waldemar Espinoza Soriano, con apreciacion etnologica de John V. Murra, Casa de la Cultura del Peru, Lima 1964.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "semanticscholar.org",
+          "url": "https://www.semanticscholar.org/paper/Visita-hecha-a-la-provincia-de-Chucuito-por-Garci-Miguel-Soriano/a583916f9e9ab34ba63b26c02d3d7a9ae440b6af",
+          "tipo": "landing",
+          "edicion_tipo": "transcripcion_paleografica",
+          "acceso": "libre",
+          "verificado": false,
+          "nota": "Registro Semantic Scholar; verificar disponibilidad de PDF en la pagina."
+        }
+      ],
+      "relevancia": "Visita al senorio lupaqa (Chucuito). Fuente clave para entender la administracion del Collao y el sistema decimal andino tras la conquista.",
+      "notas": "Edicion 1964 de la Casa de la Cultura del Peru no parece estar disponible libremente como PDF directo en plataformas verificadas. Buscar en HathiTrust o catalogos universitarios."
+    },
+    {
+      "id": "bandera-1557",
+      "tipo": "primaria",
+      "categoria": "visita_administrativa",
+      "autor": "Damian de la Bandera",
+      "titulo": "Relacion general de la disposicion y calidad de la provincia de Guamanga llamada San Juan de la Frontera, y de la vivienda y costumbres de los naturales della",
+      "fecha_original": 1557,
+      "edicion_recomendada": "Incluida en M. Jimenez de la Espada, Relaciones geograficas de Indias (Madrid 1881-1897). Edicion moderna en BAE tomo CLXXXIII.",
+      "idioma": "es",
+      "urls": [],
+      "relevancia": "Una de las primeras relaciones administrativas del corregimiento de Huamanga. Datos etnograficos sobre las poblaciones de Ayacucho.",
+      "notas": "NO VERIFICADO ONLINE como descarga libre. Buscar en HathiTrust 'Relaciones geograficas de Indias' (Jimenez de la Espada), donde aparece. Tambien la version original esta en AGI Sevilla."
+    },
+    {
+      "id": "hemming-1970",
+      "tipo": "secundaria_moderna",
+      "categoria": "monografia_clasica",
+      "autor": "John Hemming",
+      "titulo": "The Conquest of the Incas",
+      "fecha_original": 1970,
+      "edicion_recomendada": "Edicion Harcourt Brace Jovanovich (1970) o reediciones de Pan Macmillan.",
+      "idioma": "en",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/conquestofincas0000hemm",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "borrow",
+          "verificado": true,
+          "nota": "EN COPYRIGHT. Solo disponible via prestamo digital del programa lending de Internet Archive (1 hora renovable). NO descarga libre."
+        }
+      ],
+      "relevancia": "La narrativa moderna definitiva de la conquista, exhaustivamente documentada con fuentes primarias. Hay traduccion al espanol (FCE).",
+      "notas": "NO disponible como descarga libre. Considerar compra de la edicion espanola: 'La conquista de los incas' (FCE)."
+    },
+    {
+      "id": "rostworowski-tahuantinsuyu",
+      "tipo": "secundaria_moderna",
+      "categoria": "monografia_etnohistorica",
+      "autor": "Maria Rostworowski de Diez Canseco",
+      "titulo": "Historia del Tahuantinsuyu",
+      "fecha_original": 1988,
+      "edicion_recomendada": "IEP, Lima (multiples ediciones desde 1988).",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "fondoeditorial.iep.org.pe",
+          "url": "https://fondoeditorial.iep.org.pe/producto/historia-del-tahuantinsuyu-obras-completas-viii/",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "restringido",
+          "verificado": false,
+          "nota": "Pagina oficial del IEP. Libro en venta. EN COPYRIGHT, no hay PDF libre legitimo."
+        }
+      ],
+      "relevancia": "Sintesis etnohistorica fundamental. Combina cronicas, visitas y documentos administrativos. Especialmente fuerte en la costa norte y central.",
+      "notas": "Existen PDFs no autorizados en Scribd/Academia.edu pero infringen copyright. Recomendar compra legitima o consulta institucional."
+    },
+    {
+      "id": "rostworowski-pachacutec",
+      "tipo": "secundaria_moderna",
+      "categoria": "monografia_etnohistorica",
+      "autor": "Maria Rostworowski de Diez Canseco",
+      "titulo": "Pachacutec Inca Yupanqui",
+      "fecha_original": 1953,
+      "edicion_recomendada": "Reedicion IEP (Obras Completas I), Lima 2001.",
+      "idioma": "es",
+      "urls": [],
+      "relevancia": "Estudio detallado del Inca constructor del imperio. Su tesis doctoral, base de toda su obra posterior.",
+      "notas": "EN COPYRIGHT. No hay copia legitima en open access verificada."
+    },
+    {
+      "id": "rostworowski-francisca-pizarro",
+      "tipo": "secundaria_moderna",
+      "categoria": "biografia_historica",
+      "autor": "Maria Rostworowski de Diez Canseco",
+      "titulo": "Dona Francisca Pizarro: una ilustre mestiza 1534-1598",
+      "fecha_original": 1989,
+      "edicion_recomendada": "IEP, Lima (4a edicion 2017).",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/dona-francisca-pizarro-una-ilustre-mestiza-1534-1598",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Aparentemente libre de descarga. Verificar status segun jurisdiccion."
+        }
+      ],
+      "relevancia": "Biografia de la hija mestiza de Francisco Pizarro y la princesa Ines Huaylas Yupanqui (hija de Huayna Capac). Ventana al primer mestizaje de elite.",
+      "notas": "",
+      "pdf_local": "docs/otros/rostworowski-francisca-pizarro.pdf"
+    },
+    {
+      "id": "pease-cronistas",
+      "tipo": "secundaria_moderna",
+      "categoria": "estudio_historiografico",
+      "autor": "Franklin Pease Garcia-Yrigoyen",
+      "titulo": "Las cronicas y los Andes",
+      "fecha_original": 1995,
+      "edicion_recomendada": "Fondo de Cultura Economica, Mexico 1995. PUCP/FCE.",
+      "idioma": "es",
+      "urls": [],
+      "relevancia": "Analisis critico de las fuentes cronisticas andinas. Indispensable para evaluar la fiabilidad de cada cronista.",
+      "notas": "EN COPYRIGHT. PDFs en Scribd son piratas. Buscar edicion legitima."
+    },
+    {
+      "id": "julien-reading-inca-history",
+      "tipo": "secundaria_moderna",
+      "categoria": "monografia_etnohistorica",
+      "autor": "Catherine Julien",
+      "titulo": "Reading Inca History",
+      "fecha_original": 2000,
+      "edicion_recomendada": "University of Iowa Press.",
+      "idioma": "en",
+      "urls": [
+        {
+          "plataforma": "jstor.org",
+          "url": "https://www.jstor.org/stable/j.ctt20q1xg1",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "restringido",
+          "verificado": false,
+          "nota": "JSTOR requiere institucion. NO open access general."
+        }
+      ],
+      "relevancia": "Identifica dos generos historicos en las cronicas: la genealogia oficial inca y las historias-vida de los gobernantes. Marco metodologico clave.",
+      "notas": "EN COPYRIGHT."
+    },
+    {
+      "id": "daltroy-incas",
+      "tipo": "secundaria_moderna",
+      "categoria": "monografia_arqueologica",
+      "autor": "Terence N. D'Altroy",
+      "titulo": "The Incas",
+      "fecha_original": 2002,
+      "edicion_recomendada": "Blackwell (2002, 1a ed.) / Wiley-Blackwell (2014, 2a ed.).",
+      "idioma": "en",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/incas0000dalt",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "borrow",
+          "verificado": true,
+          "nota": "Solo prestamo digital (IA lending). EN COPYRIGHT."
+        }
+      ],
+      "relevancia": "Sintesis arqueologica y etnohistorica del estado inca. Texto de referencia anglosajon.",
+      "notas": "EN COPYRIGHT."
+    },
+    {
+      "id": "maccormack-religion-andes",
+      "tipo": "secundaria_moderna",
+      "categoria": "monografia_historica",
+      "autor": "Sabine MacCormack",
+      "titulo": "Religion in the Andes: Vision and Imagination in Early Colonial Peru",
+      "fecha_original": 1991,
+      "edicion_recomendada": "Princeton University Press 1991.",
+      "idioma": "en",
+      "urls": [],
+      "relevancia": "Estudio fundamental sobre la religion andina y la confrontacion con el cristianismo en el siglo XVI.",
+      "notas": "NO open access verificado. Disponible solo via JSTOR institucional o compra."
+    },
+    {
+      "id": "bauer-sacred-landscape",
+      "tipo": "secundaria_moderna",
+      "categoria": "monografia_arqueologica",
+      "autor": "Brian S. Bauer",
+      "titulo": "The Sacred Landscape of the Inca: The Cusco Ceque System",
+      "fecha_original": 1998,
+      "edicion_recomendada": "University of Texas Press.",
+      "idioma": "en",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/sacredlandscapeo0000baue",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "borrow",
+          "verificado": true,
+          "nota": "Solo prestamo digital. EN COPYRIGHT."
+        }
+      ],
+      "relevancia": "Estudio definitivo del sistema de ceques del Cuzco, integrando arqueologia con las fuentes de Polo de Ondegardo y Cobo.",
+      "notas": "EN COPYRIGHT."
+    },
+    {
+      "id": "ramirez-world-upside-down",
+      "tipo": "secundaria_moderna",
+      "categoria": "monografia_historica",
+      "autor": "Susan E. Ramirez",
+      "titulo": "The World Upside Down: Cross-Cultural Contact and Conflict in Sixteenth-Century Peru",
+      "fecha_original": 1996,
+      "edicion_recomendada": "Stanford University Press.",
+      "idioma": "en",
+      "urls": [],
+      "relevancia": "Sistema colonial impuesto en la costa norte peruana y como altero las creencias y organizacion locales.",
+      "notas": "EN COPYRIGHT. No verificado en open access."
+    },
+    {
+      "id": "stern-perus-indian-peoples",
+      "tipo": "secundaria_moderna",
+      "categoria": "monografia_historica",
+      "autor": "Steve J. Stern",
+      "titulo": "Peru's Indian Peoples and the Challenge of Spanish Conquest: Huamanga to 1640",
+      "fecha_original": 1982,
+      "edicion_recomendada": "University of Wisconsin Press (2a ed. 1993).",
+      "idioma": "en",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/perusindianpeopl0000ster_n2b0",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "borrow",
+          "verificado": true,
+          "nota": "Solo prestamo digital. EN COPYRIGHT."
+        }
+      ],
+      "relevancia": "Estudio regional de Huamanga (Ayacucho) bajo dominio colonial. Demuestra resistencia y agencia indigena.",
+      "notas": "EN COPYRIGHT."
+    },
+    {
+      "id": "spalding-huarochiri",
+      "tipo": "secundaria_moderna",
+      "categoria": "monografia_etnohistorica",
+      "autor": "Karen Spalding",
+      "titulo": "Huarochiri: An Andean Society Under Inca and Spanish Rule",
+      "fecha_original": 1984,
+      "edicion_recomendada": "Stanford University Press.",
+      "idioma": "en",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/huarochiriandean0000spal",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "borrow",
+          "verificado": true,
+          "nota": "Solo prestamo digital. EN COPYRIGHT."
+        }
+      ],
+      "relevancia": "Estudio sintetico de la region de Huarochiri (sierra de Lima) bajo el impacto inca y espanol. Combina arqueologia, etnohistoria y archivo.",
+      "notas": "EN COPYRIGHT."
+    },
+    {
+      "id": "salomon-native-lords-quito",
+      "tipo": "secundaria_moderna",
+      "categoria": "monografia_etnohistorica",
+      "autor": "Frank Salomon",
+      "titulo": "Native Lords of Quito in the Age of the Incas: The Political Economy of North Andean Chiefdoms",
+      "fecha_original": 1986,
+      "edicion_recomendada": "Cambridge University Press (Cambridge Studies in Social Anthropology 59).",
+      "idioma": "en",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/nativelordsofqui0000salo",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "borrow",
+          "verificado": true,
+          "nota": "Solo prestamo digital. EN COPYRIGHT."
+        }
+      ],
+      "relevancia": "Economia politica de los senorios del norte andino (actual Ecuador) en la epoca inca y temprano-colonial.",
+      "notas": "EN COPYRIGHT."
+    },
+    {
+      "id": "espinoza-huancas",
+      "tipo": "secundaria_moderna",
+      "categoria": "monografia_etnohistorica",
+      "autor": "Waldemar Espinoza Soriano",
+      "titulo": "Los Huancas, aliados de la conquista: tres informaciones ineditas sobre la participacion indigena en la conquista del Peru, 1558-1560-1561",
+      "fecha_original": "1971-1972",
+      "edicion_recomendada": "Anales Cientificos de la Universidad Nacional del Centro del Peru, Huancayo, 1971-1972.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "idoc.pub",
+          "url": "https://idoc.pub/documents/los-huancas-aliados-de-la-conquista-1430zvqd2o4j",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": false,
+          "nota": "Repositorio de documentos no academico; status legal incierto. Verificar si hay copia institucional en UNCP."
+        }
+      ],
+      "relevancia": "Edicion de tres probanzas de los kurakas huancas (Felipe Guacrapaucar, Francisco Cusichaca) que confirman la alianza huanca-espanola contra Quizquiz y Atahualpa.",
+      "notas": "Pieza fundamental sobre la agencia indigena en la conquista. Buscar revista 'Anales Cientificos' UNCP para version oficial."
+    },
+    {
+      "id": "schjellerup-chachapoyas",
+      "tipo": "secundaria_moderna",
+      "categoria": "monografia_arqueologica",
+      "autor": "Inge Schjellerup",
+      "titulo": "Incas y espanoles en la conquista de los chachapoya (orig. ingles 1997: Incas and Spaniards in the Conquest of the Chachapoyas)",
+      "fecha_original": 2005,
+      "edicion_recomendada": "PUCP / IFEA, Lima 2005 (ed. espanola). Tesis original: Goteborg 1997.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/inge-schjellerup-incas-y-espanoles-en-la-conquista-de-los-chachapoya-catolica-de",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "PDF 29.0M. Edicion PUCP/IFEA 2005."
+        },
+        {
+          "plataforma": "books.openedition.org",
+          "url": "https://books.openedition.org/ifea/4914?lang=en",
+          "tipo": "html",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "OpenEdition Books del IFEA: capitulos en HTML accesibles."
+        }
+      ],
+      "relevancia": "Estudio arqueologico y etnohistorico definitivo sobre los Chachapoya y su conquista por los incas (1470) y los espanoles. Estudio de campo en Cochabamba (San Martin).",
+      "notas": "",
+      "pdf_local": "docs/otros/schjellerup-chachapoyas.pdf"
+    },
+    {
+      "id": "kauffmann-chachapoyas",
+      "tipo": "secundaria_moderna",
+      "categoria": "monografia_arqueologica",
+      "autor": "Federico Kauffmann Doig",
+      "titulo": "Los Chachapoyas / The Chachapoyas Culture",
+      "fecha_original": 2003,
+      "edicion_recomendada": "Multiples ediciones (BCRP, UAP).",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "academia.edu",
+          "url": "https://www.academia.edu/106278809/La_Cultura_Chachapoyas",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": false,
+          "nota": "Subido por el autor o por academicos. Academia.edu requiere cuenta gratuita para descargar. Status legal: subido por el propio autor (Kauffmann Doig)."
+        }
+      ],
+      "relevancia": "Sintesis arqueologica de la cultura Chachapoya por su mayor investigador peruano. Incluye los Pinchudos y Kuelap.",
+      "notas": ""
+    }
+  ],
+  "fuentes_no_encontradas": [
+    {
+      "id": "hernando-pizarro-1533",
+      "razon": "La unica edicion en linea (Cervantes Virtual) es la carta de 1541 a Carlos V, no la carta de 1533 a la Audiencia de Santo Domingo. Esta ultima esta en Oviedo (Historia general y natural de las Indias, libro XLVI cap. XV) y en la Coleccion de Documentos Ineditos para la Historia de Espana tomo XLII (Madrid 1865) - habria que extraerla manualmente del archive.org de esos textos."
+    },
+    {
+      "id": "ortiz-zuniga-1562",
+      "razon": "La edicion paleografica de John V. Murra (UNHEVAL Huanuco 1967/1972) NO esta digitalizada en plataformas open access verificadas. Existe en bibliotecas universitarias peruanas y norteamericanas."
+    },
+    {
+      "id": "diez-san-miguel-1567",
+      "razon": "Edicion Espinoza Soriano/Murra Casa de la Cultura del Peru, Lima 1964: no encontrada como PDF directo libre en plataformas verificables."
+    },
+    {
+      "id": "bandera-1557",
+      "razon": "Relacion incluida en Jimenez de la Espada, Relaciones geograficas de Indias (Madrid 1881-97). El conjunto puede estar en HathiTrust/archive.org pero el extracto especifico de Bandera requiere navegacion del volumen."
+    },
+    {
+      "id": "murua-galvin-wellington",
+      "razon": "Los manuscritos Galvin (Dublin/Sean Galvin) y Wellington/Getty (Ludwig XIII 16) tienen facsimiles impresos de coleccion (Testimonio 2004, etc.) pero NO facsimiles digitales libres. Solo hay registros catalograficos en Marble (Notre Dame) y Dumbarton Oaks."
+    },
+    {
+      "id": "pease-cronistas",
+      "razon": "Las cronicas y los Andes (FCE 1995): en copyright, no hay copia legitima open access."
+    },
+    {
+      "id": "regalado-titu-cusi-1992",
+      "razon": "Edicion critica de Liliana Regalado de la Instruccion de Titu Cusi (PUCP 1992): no encontrada en repositorio PUCP como PDF libre. Solo articulos derivados estan disponibles."
+    },
+    {
+      "id": "polo-ondegardo-edicion-libre",
+      "razon": "La edicion Urteaga 1916-17 esta probablemente en HathiTrust pero requiere autenticacion universitaria para acceso fuera de EE.UU. Buscar tambien CSIC Simurg."
+    }
+  ],
+  "top_prioridades_bibliotecas_fisicas": [
+    "John V. Murra (ed.), Visita de la provincia de Leon de Huanuco en 1562 de Inigo Ortiz de Zuniga (2 vols.) — la fuente etnohistorica mas detallada para el modelo de los archipielagos verticales. UNHEVAL Huanuco 1967-72.",
+    "Liliana Regalado de Hurtado (ed. critica), Instruccion de Titu Cusi Yupanqui, PUCP 1992 — unica voz inca soberana sobre la conquista.",
+    "Waldemar Espinoza Soriano (ed.), Visita hecha a la provincia de Chucuito por Garci Diez de San Miguel (1567), Casa de la Cultura del Peru, Lima 1964 — base para la economia del Collao.",
+    "Manuel Ballesteros (ed.), Martin de Murua, Historia general del Peru, Historia 16 Madrid 1987 — la mejor edicion modernizada del manuscrito Wellington/Getty.",
+    "John Hemming, The Conquest of the Incas (en ingles, Harcourt 1970) o La conquista de los incas (FCE espanol) — narrativa de referencia, indispensable, no esta libre en linea."
+  ],
+  "citas": {
+    "titu-1570-c01": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 65,
+      "folio_ms": "6r",
+      "texto": "Sapay ynga, que quiere decir tú solo Señor, benimoste a dezir cómo a llegado a tu tierra un genero de jente no oyda ny bista en nuestras nasçiones, qué al parescer sin dubda son Viracochas -como dizen dioses- An llegado a Caxamarca donde está tu hermano.",
+      "contexto": "Embajada secreta de los tallanas yungas al Cuzco para avisar a Manco."
+    },
+    "titu-1570-c02": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 61,
+      "folio_ms": "2v-3r",
+      "texto": "avian visto llegar a su tierra çiertas personas muy diferentes de nuestro avito y traje que pareçian viracochas, ques el nonbre con el qual nosotros nonbramos antiguamente al criador de todas las cossas diziendo Tecsi Viracochan, que quiere dezir prençipio y hazedor de todo, y nonbraron desta manera a aquellas personas que avian visto, lo uno, porque diferençiavan mucho en nuestro traje y senblante y lo otro, porque beyan que andaban en unas animalias muy grandes, las quales tenían los pies de plata.",
+      "contexto": "Caracterización original de los conquistadores como 'viracochas' en la frontera tallana."
+    },
+    "titu-1570-c03": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 62,
+      "folio_ms": "3r",
+      "texto": "tenian yllapas, nonbre que nosotros tenemos para los truenos, y esto dezian por los arcabuzes porque pensaban que heran truenos del cielo.",
+      "contexto": "Identificación arcabuz = trueno divino."
+    },
+    "titu-1570-c04": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 62,
+      "folio_ms": "3v",
+      "texto": "le mostraron al dicho my tio una carta o libro o no se que, diziendo que aquella hera la quillca de Dios y del Rey, e my tio como se sintio afrentado del derramar la chicha, que ansy se llama nuestra bevida, tomo la carta o lo que hera y arrojolo por ay diziendo: '¿Qué se yo que me dais ay? Anda, bete.'",
+      "contexto": "Versión andina del encuentro de Cajamarca: la ofensa es el derrame de chicha, no el rechazo del libro."
+    },
+    "titu-1570-c05": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 62,
+      "folio_ms": "4r",
+      "texto": "no con armas para pelear ni arneses para se defender, syno con tomes y lazos, que asy llamamos los cuchillos nuestros, para caçar aquél genero de nuevas llamas, que ansy llamamos el ganado nuestro, y ellos lo dezian por los cavallos.",
+      "contexto": "Atahualpa sale armado para 'cazar' a los caballos, no para combatir."
+    },
+    "titu-1570-c06": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 63,
+      "folio_ms": "4v-5r",
+      "texto": "con gran furia arremetieron al medio de la plaça donde estava un asyento del ynga en alto a manera de fortaleza, que nosotros llamamos usnu, los quales se apoderaron dél y no dexaron subir alla a mi tio, mas antes al pie dél le derrocaron de sus andas por fuerça y se las trastornaron e quitaron lo que tenia y la borla, que entre nosotros es corona.",
+      "contexto": "Matanza de Cajamarca: profanación del usnu."
+    },
+    "titu-1570-c07": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 63,
+      "folio_ms": "5r",
+      "texto": "como.quien mata a ovejas, sin hazerles naidie resistençia, que no se escaparon de más de diez mil dozientos.",
+      "contexto": "Cifra atribuida a la matanza."
+    },
+    "titu-1570-c08": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 67,
+      "folio_ms": "7r",
+      "texto": "acordaron de enbiar dos españoles a besarle las manos, llamados el uno, fulano Villegas y el otro, Antano, que no le supieron los yndios dar otro nonbre.",
+      "contexto": "Los dos primeros españoles enviados al Cuzco."
+    },
+    "titu-1570-c09": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 68,
+      "folio_ms": "8r",
+      "texto": "el marques don Francisco Piçarro -que nosotros llamamos machu capitu-",
+      "contexto": "Apodo quechua de Pizarro: machu capitu = jefe/capitán mayor."
+    },
+    "titu-1570-c10": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 77,
+      "folio_ms": "15r",
+      "texto": "Aunque le solteis vosotros y de demas oro e plata que cabe en quatro bohios, no se soltara de my parte sino me da primero a la señora coya su hermana llamada Cura Ocllo por mi muger.",
+      "contexto": "Hernando Pizarro reclama a Cura Ocllo."
+    },
+    "titu-1570-c11": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 77,
+      "folio_ms": "15v",
+      "texto": "¿Pues eso manda el Viracochan que tomeis por fuerça la hazienda y mugeres de naidie? No se usa tal entre nosotros y bien digo yo que bosotros no sois hijos de Viracochan sino del supay, que es el nonbre del demonio en nuestra lengua.",
+      "contexto": "Respuesta de Manco identificando a los españoles como hijos del demonio."
+    },
+    "titu-1570-c12": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 78,
+      "folio_ms": "16r",
+      "texto": "en nuestro uso llamamos Andesuyo, Chinchaysuyo, Condesuyo, Collasuyo, rodeando desta manera: Andesuyo al oriente, Chinchaysuyo al norte, Condesuyo al poniente, Collasuyo al sur. Esto haziamos puestos en el Cuzco que es el çentro y cabeça de toda la tierra […] señores de Tauantinsuyo, que quiere dezir señores de las quatro partes del mundo.",
+      "contexto": "Definición indígena del Tahuantinsuyu."
+    },
+    "titu-1570-c13": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 85,
+      "folio_ms": "22v",
+      "texto": "el otro dia quedaste con mi hermano Hernando Piçarro de no urdir ny tratar más negoçios […] Por tanto, sed preso por el Rey.",
+      "contexto": "Pretexto de la 2ª prisión por Gonzalo Pizarro."
+    },
+    "titu-1570-c14": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 86,
+      "folio_ms": "23r",
+      "texto": "¿Por ventura soy yo perro o carnero o algun oyua vuestro, que porque no me huya me atais desta manera?",
+      "contexto": "Queja de Manco."
+    },
+    "titu-1570-c15": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 88,
+      "folio_ms": "24v-25r",
+      "texto": "Sapai ynga ¿qué es esto en que andan estos Viracochas? Oy te prenden mañana te sueltan. Parece que andan contigo jugando a juego de niños […] Yo te digo que si tú me dexaras a mí quando ellos llegaron a Caxamarca, que nunca ellos llegaron donde tú estas agora, porque yo e Chalcochima aunque ellos no quisieran, con la gente de nuestro bando, les estorvaramos la entrada.",
+      "contexto": "Discurso de Vila Oma reprochando a Manco."
+    },
+    "titu-1570-c16": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 89,
+      "folio_ms": "25r",
+      "texto": "y aun, sy se te acuerda, te dixe quando tubimos nueva que avian llegado a la tierra, que yo yria por la posta con diez o doze mill yndios y los haria pedaços a todos y tú nunca me dexaste, syno antes: 'calla, calla, que son Viracochas o sus hijos'.",
+      "contexto": "Continuación del discurso de Vila Oma."
+    },
+    "titu-1570-c17": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 90,
+      "folio_ms": "26r",
+      "texto": "Vosotros no le engañastes diziendo que beniades por el biento por mandado del Viracochan, que herades sus hijos y deziades que beniades a servir al inga, a quererle mucho, a tratarle como a vuestras personas mismas, él y a toda su gente?",
+      "contexto": "Increpación de Vila Oma a los españoles."
+    },
+    "titu-1570-c18": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 94,
+      "folio_ms": "28v",
+      "texto": "no dexaré de deziros que lo aveis hecho, no como cristianos e hijos que dezis que sois del Viracochan, sino como siervos del supay, cuyas pisadas vosotros seguis, haziendo mal a quien os haze bien […] Peores sois que los yungas, los quales por un poquillo de plata mataran a su madre y a su padre y negaran todo lo del mundo.",
+      "contexto": "Sentencia moral de Manco contra los conquistadores."
+    },
+    "titu-1570-c19": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 97,
+      "folio_ms": "29v-30r",
+      "texto": "mandó que saliese una la más prençipal muger que en su casa tenia, conpañera de su hermana la coya […] que se llamava Ynguill, que quiere dezir flor […] Esta sy, esta sy. Pese tal es la señora coya, que no las otras.",
+      "contexto": "Engaño de Inguill por Cura Ocllo."
+    },
+    "titu-1570-c20": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 99,
+      "folio_ms": "31r",
+      "texto": "hizo una fiesta muy prençipal, en la qual se horadava las orejas. Y en esta fiesta nosotros los yngas solemos hazer la mayor fiesta que hazemos en todo el año, porque entonces nos dan mucho nonbre y nuebo nonbre del que teniamos antes, que tira casy esta çerimonia a lo que los cristianos hazen quando se confirman.",
+      "contexto": "Definición del vacaroc."
+    },
+    "titu-1570-c21": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 101,
+      "folio_ms": "33r",
+      "texto": "Sabete, Señor Mango Ynga, que tu hermano Pascac te anda por matar y trae para el efeto debaxo de la manta, escondido un puñal.",
+      "contexto": "Aviso de un español criado a Manco sobre Pascac."
+    },
+    "titu-1570-c22": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 104,
+      "folio_ms": "36v",
+      "texto": "asomaron por todas las vistas del Cuzco a la redonda dél, en el çerco, gran suma de gente con muchos chiflos y bozinas e tronpetas e gran griteria de bozes, que asonbravan a todo el mundo, que en numero serian mas de quatrocientos mill yndios.",
+      "contexto": "Inicio del cerco del Cuzco."
+    },
+    "titu-1570-c23": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 104,
+      "folio_ms": "37r",
+      "texto": "y mandó tanbien soltar todas las açequias de agua que avia en el pueblo, para que anegasen todos los canpos y caminos que a la redonda y dentro dél estava.",
+      "contexto": "Táctica del lodazal para inmovilizar caballos."
+    },
+    "titu-1570-c24": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 104,
+      "folio_ms": "38r",
+      "texto": "començabanles a quemar las casas, acometieron a ponerles fuego a la yglessia, sino que los negros que ençima della estavan se lo estorvavan […] hazian lo mismo y muchos yndios de los que heran de su banda, los quales avian venido con ellos desde Caxamarca.",
+      "contexto": "La defensa de la iglesia del Cuzco por los negros."
+    },
+    "titu-1570-c25": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 105,
+      "folio_ms": "38r",
+      "texto": "alçandoles la perneta, por el poco casso que dellos hazian.",
+      "contexto": "Burla ritual indígena a los españoles cercados. Nota del editor: alzar la perneta = alzar la pierna, señal de burla o gesto grosero."
+    },
+    "titu-1570-c26": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 105,
+      "folio_ms": "38v",
+      "texto": "con las quales galgas mataron a Joan Piçarro y a dos negros y muchos yndios de los que les ayudaban.",
+      "contexto": "Muerte de Juan Pizarro en Sacsahuamán."
+    },
+    "titu-1570-c27": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 105,
+      "folio_ms": "39r",
+      "texto": "porque dizen estos yndios que un cavallo blanco que allí andava, el qual fue el primero que entró en la fortaleza al tiempo que se tomó, les hazia mucho daño.",
+      "contexto": "El caballo blanco de Sacsahuamán."
+    },
+    "titu-1570-c28": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 105,
+      "folio_ms": "39r",
+      "texto": "entre los quales estavan dos hermanos de mi padre, llamados el uno Ynguill y el otro Vaypar, con mucha gente de su vando y chachapoyas e cañares.",
+      "contexto": "La traición fraterna: dos hermanos de Manco pelean del lado español."
+    },
+    "titu-1570-c29": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 107,
+      "folio_ms": "44r",
+      "texto": "Yo os agradesco, hjjos, la buena voluntad y deseo que mostrais de quererme seguir donde quiera que vaya […] de aquí a que vuelva, o hasta que os enbie mis mensajeros para lo que ayais de hazer, teneis este modo en vuestra bivienda: Lo primero que hareis, sera que a estos barbudos que tantas befas a mí me an hecho, por me fyar yo dellos tanto no les creais cosa que os dixieren, porque mienten mucho.",
+      "contexto": "Discurso programático de Manco antes de retirarse a los Andes: resistencia y disimulación."
+    },
+    "titu-1570-c30": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 108,
+      "folio_ms": "44v",
+      "texto": "Lo que podreis hazer sera dar muestras por de fuera de que consentis a lo que os mandan y dar algun camarico y lo que pudieredes, que en vuestras tierras oviere, porque como esta gente es tan brava y de diferente condiçión de la nuestra, podría ser que no se lo dando vosotros, os lo tomaren por fuerça o vos maltatasen por ello.",
+      "contexto": "Doctrina del disimulo."
+    },
+    "titu-1570-c31": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 108,
+      "folio_ms": "44v",
+      "texto": "si tanbien se os ofresciere necesidad estrema de que ayais necesidad de my persona, darme eis avisso por la posta adonde quiera que yo estubiere.",
+      "contexto": "Manco institucionaliza el aviso por la posta como vínculo permanente con su gente."
+    },
+    "titu-1570-c32": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 108,
+      "folio_ms": "45r",
+      "texto": "Mienten mucho, son gente brava, de diferente condiçión que la nuestra, engañan por buenas palabras y despues no cumplen, toman por engaños y fuerça: haziendas, mugeres, hijos, chacras, comida.",
+      "contexto": "Lista de cualidades atribuidas a los españoles."
+    },
+    "titu-1570-c33": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 108,
+      "folio_ms": "45v",
+      "texto": "por ventura estos os diran que adoreis a lo que ellos adoran, que son unos paños pintados, los quales dizen ques Viracochan, y que le adoreis como a guaca, el qual no es sino paño. No lo hagais, sino lo que nosotros tenemos; eso tened, porque como beis, las villcas hablan con nosotros, y al sol y a la luna, beemoslos por nuestros ojos y lo que esos dizen, no lo veemos.",
+      "contexto": "Crítica andina al culto a las imágenes."
+    },
+    "titu-1570-c34": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 108,
+      "folio_ms": "45v",
+      "texto": "Bien creo que alguna vez, por fuerça o con engaño, os an de hazer adorar lo que ellos adoran; quando mas no pudieredes, hazeldo delante dellos y por otra parte, no olvideis nuestras cerimonias, y si os dixieren que quebranteis vuestras guaças y esto por fuerça, mostraldes lo que no pudieredes hazer menos y lo demas guardaldo.",
+      "contexto": "Doctrina explícita de la clandestinidad religiosa."
+    },
+    "titu-1570-c35": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 109,
+      "folio_ms": "46v",
+      "texto": "las que antiguamente avia heran de mis aguelos Pachacute Ynga, Topa Ynga Yupangui y Guainacapac y los demas, cuyos cuerpos pussimos allí, porque no los osamos dexar en el Cuzco ni en Tanbo.",
+      "contexto": "Traslado de los cuerpos a Vitcos."
+    },
+    "titu-1570-c36": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 109,
+      "folio_ms": "46v",
+      "texto": "los cuerpos de mis antepasados los quales se llamavan Vanacauri, Viracochan Ynga, Pachacuti Ynga, Topa Ynga Yupangui y Guaina Capac y otros muchos cuerpos de mugeres.",
+      "contexto": "Lista completa de los cuerpos llevados."
+    },
+    "titu-1570-c37": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 110,
+      "folio_ms": "48r",
+      "texto": "puso en un cerro muchas mugeres en renglera, todas con lanças en las manos, para que pensasen que heran honbres.",
+      "contexto": "Ardid de Manco en Oroncoy."
+    },
+    "titu-1570-c38": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 111,
+      "folio_ms": "50r",
+      "texto": "echandole una soga al pescueso, le truxieron arrastrando por todo el camino con gran denuesto, por çerros e piedras y cienagas y lodos, beynte leguas de camino diziendo: ¿Veis aqui la confiança que tenian aquellos guancas deste ydolo al qual tenian por Viracochan? Mira en que an parado ellas y ellos y sus amos los españoles.",
+      "contexto": "Destrucción del ídolo Guarivillca."
+    },
+    "titu-1570-c39": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 111,
+      "folio_ms": "50r",
+      "texto": "La guaca o ydolo llamado Varivillca la mando mi padre hechar en un gran rio.",
+      "contexto": "Final del Guarivillca."
+    },
+    "titu-1570-c40": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 112,
+      "folio_ms": "51v",
+      "texto": "a donde intentaron a querer forçar a mi tia y ella no queriendo se defendia fuertemente, en tanto que vino a ponerse en su cuerpo cosas hediondas y de disprescio, porque los que quisiesen llegar a ella hubiesen asco.",
+      "contexto": "Defensa de Cura Ocllo con sustancias hediondas."
+    },
+    "titu-1570-c41": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 113,
+      "folio_ms": "52r",
+      "texto": "¿En una muger bengais vuestros enojos? ¿Qué mas hiziera otra mujer como yo? Dados priesa a acabarme porque se cunpla vuestro apetito en todo.",
+      "contexto": "Últimas palabras de Cura Ocllo al ser asaeteada."
+    },
+    "titu-1570-c42": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 115,
+      "folio_ms": "53r",
+      "texto": "Estaban un dia con mucho regoçijo jugando al herron, solos mi padre y ellos y yo, que entonces hera mochacho, sin pensar my padre cosa ninguna ni aber dado credito a una yndia del uno dellos, llamada Buba, que le avian dicho muchos dias antes, que aquellos españoles le querian matar.",
+      "contexto": "Asesinato de Manco jugando al herrón (Titu Cusi testigo niño)."
+    },
+    "titu-1570-c43": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 115,
+      "folio_ms": "53v",
+      "texto": "yendo el dicho mi padre a levantar el herron para aver de jugar, cargaron todos sobre él, con puñales y quchillos y algunas espadas; y mi padre, como se syntio herido, con la rabia de la muerte procuraba de defendersse de una parte y de otra, mas como hera solo y ellos heran siete y mi padre no tenia arma ninguna, al fin le derrocaron al suelo con muchas heridas.",
+      "contexto": "La escena del crimen."
+    },
+    "titu-1570-c44": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 115,
+      "folio_ms": "53v",
+      "texto": "Ya hemos muerto al Ynga, no ayais miedo.",
+      "contexto": "Anuncio de los asesinos al salir."
+    },
+    "titu-1570-c45": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 116,
+      "folio_ms": "54v",
+      "texto": "Hijo mio muy amado, bien me bes quál estoy e por eso, no tengo que te significar por palabras mas mi dolor de lo que las obras dan testimonio. […] Mira que te mando que perpetuamente nunca tengas ley perfecta con semejante gente que esta, porque no te acontesca a ti otro tanto como a mi. No consientas que entren en tu tierra, aunque mas te conbiden con palabras, porque sus palabras melosas me engañaron a mi y ansy haran a ti si los crees.",
+      "contexto": "Última instrucción de Manco a Titu Cusi."
+    },
+    "titu-1570-c46": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 117,
+      "folio_ms": "55v",
+      "texto": "de alli me bine a este Billcapanpa donde estube mas de beinte años, hasta que me desosegaron unos yndios de Guamachuco, por mandado de la justisia del Cuzco, puesta por Gonçalo Piçarro que a la sason andava alterado contra el Rey.",
+      "contexto": "Cierre de la fase Manco; inicio del propio relato de Titu Cusi."
+    },
+    "titu-1570-c47": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 117,
+      "folio_ms": "56r",
+      "texto": "En lo sobredicho arriba […] di a entender llana y suscintamente, la manera cómo mi padre Mango Ynga Yupangui, fue señor natural destos reynos del Piru y el modo y la manera de la entrada de los españoles en su tierra y cómo y a qué efeto se les reveló.",
+      "contexto": "Bisagra interna del documento: declaración de propósito."
+    },
+    "titu-1570-c48": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 119,
+      "folio_ms": "58v",
+      "texto": "como me gratificasen algo de lo mucho que el Rey poseis de las tierras de mi padre, aparejado estava para tener paz.",
+      "contexto": "Condición de Titu Cusi para la paz."
+    },
+    "titu-1570-c49": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 121,
+      "folio_ms": "60v-61r",
+      "texto": "llegaron a Reyángalla a doze dias del mes de agosto del año de mill e quinientos y sesenta y ocho […] dia del gloriosso doctor Sant Agustín, me bautizó el dicho prior, siendo mi padrino Gonçalo Perez de Bivero y madrina doña Angelina Çica Ocllo.",
+      "contexto": "Bautismo de Titu Cusi, 28 de agosto de 1568."
+    },
+    "titu-1570-c50": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 122,
+      "folio_ms": "63r",
+      "texto": "Fue fecho y ordenado todo lo arriba escripto, dando avisso de todo el ilustre señor don Diego de Castro Titu Cussi Yupangui, hijo de Mango Ynga Yupangui, señor natural que fue de los reynos del Piru, por el muy Reverendo padre frai Marcos Garçia.",
+      "contexto": "Fórmula de cierre eclesiástica."
+    },
+    "titu-1570-c51": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 122,
+      "folio_ms": "63v",
+      "texto": "Yo, Martin de Pando, escrivano de comission por el muy Illustre señor, el Liçenciado Lope Garçia de Castro, governador que fue destos reynos, doy fee que todo lo arriba escripto, lo relató y ordenó el dicho padre, a ynsistion del dicho don Diego de Castro, lo qual yo escreví por mis manos propias, de la manera que el dicho padre me lo relatava.",
+      "contexto": "Fórmula explícita de la cadena de transmisión: dictado de Titu Cusi -> redacción por fray Marcos García -> escritura por Pando."
+    },
+    "titu-1570-c52": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 122,
+      "folio_ms": "63v",
+      "texto": "Fecho en el pueblo de Sant Salvador de Villcabanba, a seis de hebrero del año de mill e quinientos y setenta años.",
+      "contexto": "Datación y localización del documento."
+    },
+    "titu-1570-c53": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 122,
+      "folio_ms": "64r",
+      "texto": "Yo, don Diego de Castro Titu Cusi Yupangui, hijo que soy de Mango Ynga Yupangui, señor natural que fue destos reynos del Piru, digo que por quanto me es neçesario hazer relasçion al Rey don Felipe […] y no sé el frases y la manera que los españoles thienen en semejantes avisos, rogué al muy Reverrendo Padre fray Marcos Garçia y a Martín de Pando, que, conforme al usso de su natural, me ordenasen y conpusiesen esta relasion arriba dicha.",
+      "contexto": "Autoconfesión sobre la composición."
+    },
+    "titu-1570-c54": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 123,
+      "folio_ms": "64r",
+      "texto": "Sepan quantos esta carta de poder vieren como yo, el Sapai Ynga don Diego de Castro Tito Cusí Yupangui, hijo mayorazgo que soy de Mango Ynga Yupangui y nieto de Guaina Capac, señores naturales que fueron destos reynos e provincias del Piru.",
+      "contexto": "Apertura del Poder otorgado a Lope García de Castro."
+    },
+    "titu-1570-c55": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 122,
+      "folio_ms": "63v",
+      "texto": "Yo Martin de Pando, escrivano de comission, por el muy Ilustre señor el governador el liçenciado Castro, doy fee de como es berdad todo lo susodicho […] es fecho a seis dias del mes de hebrero de mill e quinientos y setenta años.",
+      "contexto": "Cierre formal del Poder."
+    },
+    "titu-1570-c56": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 66,
+      "folio_ms": "6v",
+      "texto": "Comen en platos de plata y las mesmas ovejas que los traen a cuestas, los quales son grandes, thienen çapatos de plata. Echan yllapas como el cielo.",
+      "contexto": "Descripción que los tallanes dan a Manco de los españoles."
+    },
+    "titu-1570-c57": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 84,
+      "folio_ms": "22v",
+      "texto": "el otro dia quedaste con mi hermano Hernando Piçarro de no urdir ny tratar más negoçios y pareçeme que no avies guardado lo que prometistes.",
+      "contexto": "Acusación de Gonzalo Pizarro al iniciar la 2ª prisión."
+    },
+    "titu-1570-c58": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 108,
+      "folio_ms": "45r",
+      "texto": "el Viracha [sic: Viracocha] puede allanar los çerros, sacar las aguas, hazer çerros donde no las ay, no haze mal a naidie y estos no vemos que an hecho esto, mas antes en lugar de hazer bien, nos an hecho mal.",
+      "contexto": "Teología negativa de Manco: los conquistadores no son Viracochas porque hacen mal."
+    },
+    "titu-1570-c59": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 62,
+      "folio_ms": "4r",
+      "texto": "como su padre Guainacapac se lo avia dexado, donde tubo nueba por ciertos mensajeros que vinieron de alla de un hermano suyo, mayor aunque bastardo, llamado Atauallpa.",
+      "contexto": "Calificación de Atahualpa como bastardo (clave para la legitimidad de Manco)."
+    },
+    "titu-1570-c60": {
+      "fuente_id": "titu-cusi-1570",
+      "pagina_pdf": 63,
+      "folio_ms": "5v",
+      "texto": "Y los españoles dixieron: Pues aunque sea moço, sera justo que sepa nuestra llegada y cómo venimos por mandado del Viracochan, por eso avisaselo.",
+      "contexto": "Los españoles preguntan por Manco a Atahualpa cautivo."
+    }
+  }
+}

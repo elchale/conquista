@@ -1,0 +1,2277 @@
+{
+  "meta": {
+    "descripcion": "Eventos de la conquista del Tahuantinsuyu 1527–1572. Cada evento referencia su(s) cite-key(s) en fuentes.json. La cronología inicial proviene del manuscrito de Titu Cusi Yupanqui (1570) — sesgo declarado en /content/indices/titu-cusi-1570.md. Eventos pendientes de corroboración cruzada con Xerez, Estete, Pedro Pizarro, Trujillo, Cieza, etc.",
+    "convencion_fechas": "ISO YYYY-MM-DD cuando posible; YYYY-MM cuando solo el mes es seguro; YYYY o ~YYYY cuando solo el año es plausible.",
+    "estado": "v0 — narrativa centrada en Titu Cusi, fact-check cruzado pendiente"
+  },
+  "actos": [
+    {
+      "id": "acto-i",
+      "nombre": "Cajamarca: primeros contactos",
+      "rango": "1532",
+      "descripcion": "Primer contacto, ejecución de Atahualpa, ejes de embajadas con Manco."
+    },
+    {
+      "id": "acto-ii",
+      "nombre": "Muerte de Huáscar y Atahualpa",
+      "rango": "1532"
+    },
+    {
+      "id": "acto-iii",
+      "nombre": "Challcochima, Quisquis y la confederación con Manco",
+      "rango": "1533"
+    },
+    {
+      "id": "acto-iv",
+      "nombre": "Las tres prisiones",
+      "rango": "1535–1536"
+    },
+    {
+      "id": "acto-v",
+      "nombre": "Juan Pizarro conspira / Fuga a Callea / Cerco del Cuzco",
+      "rango": "1536"
+    },
+    {
+      "id": "acto-vi",
+      "nombre": "Retirada, guerras y exilio",
+      "rango": "1536–1545"
+    },
+    {
+      "id": "acto-vii",
+      "nombre": "Titu Cusi negocia y redacta la Instrucción",
+      "rango": "1557–1572"
+    },
+    {
+      "id": "acto-o",
+      "nombre": "Antes de la conquista — orígenes (1470s-1531)",
+      "rango": "~1470-1531",
+      "descripcion": "Generación de Huayna Cápac. Vidas tempranas de los protagonistas, primeros viajes de Pizarro, guerra civil inca."
+    },
+    {
+      "id": "acto-viii",
+      "nombre": "Después — vidas posteriores (1545+)",
+      "rango": "1545-1620",
+      "descripcion": "Vidas posteriores de los sobrevivientes (Inés, Angelina, Hernando Pizarro, Francisca, Beatriz)."
+    }
+  ],
+  "eventos": [
+    {
+      "id": "contarguacho-secundaria",
+      "acto": "acto-o",
+      "fecha": "~1517",
+      "lugar": "cuzco",
+      "titulo": "Contarguacho como esposa secundaria de Huayna Cápac",
+      "participantes": [
+        "contarguacho",
+        "huayna-capac"
+      ],
+      "resumen": "Hija del curaca de Huaylas, dada a Huayna Cápac como esposa secundaria. Era una práctica imperial: integrar señoríos regionales a través de matrimonios.",
+      "fuentes": [
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "mujer",
+        "matrimonio-politico"
+      ],
+      "citas": []
+    },
+    {
+      "id": "ines-nace",
+      "acto": "acto-o",
+      "fecha": "~1518",
+      "lugar": "cuzco",
+      "titulo": "Nace Quispe Sisa (después Inés Huaylas)",
+      "participantes": [
+        "ines-huaylas-yupanqui",
+        "huayna-capac",
+        "contarguacho"
+      ],
+      "resumen": "Nace en Cuzco hija del Sapa Inca Huayna Cápac y de Contarguacho, señora del valle de Huaylas. Nombre quechua: Quispe Sisa ('flor de cristal'). Es princesa de la sangre real cuzqueña por línea paterna.",
+      "fuentes": [
+        "pedro-pizarro-1571",
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "nacimiento",
+        "mujer",
+        "linaje-real"
+      ],
+      "citas": []
+    },
+    {
+      "id": "angelina-nace",
+      "acto": "acto-o",
+      "fecha": "~1521",
+      "lugar": "cuzco",
+      "titulo": "Nace Cuxirimay Ocllo (después Angelina Yupanqui)",
+      "participantes": [
+        "angelina-yupanqui"
+      ],
+      "resumen": "Nace Cuxirimay Ocllo, hija de Yamque Yupanqui (hermano de Huayna Cápac). Pertenece a la panaca de Pachacuti, las casas reales más antiguas de Cuzco.",
+      "fuentes": [
+        "betanzos-1551"
+      ],
+      "tags": [
+        "mujer",
+        "nacimiento",
+        "linaje-real"
+      ],
+      "citas": []
+    },
+    {
+      "id": "contarguacho-huaylas-1527",
+      "acto": "acto-o",
+      "fecha": "~1527",
+      "lugar": "huaylas",
+      "titulo": "Contarguacho vuelve a Huaylas tras muerte de Huayna Cápac",
+      "participantes": [
+        "contarguacho"
+      ],
+      "resumen": "Tras la muerte del Sapa Inca, regresa a su señorío de Huaylas, donde mantiene autoridad como curaca por linaje propio.",
+      "fuentes": [
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "mujer",
+        "viaje"
+      ],
+      "citas": []
+    },
+    {
+      "id": "cura-ocllo-coya-manco",
+      "acto": "acto-o",
+      "fecha": "~1530",
+      "lugar": "cuzco",
+      "titulo": "Cura Ocllo coya de Manco Inca",
+      "participantes": [
+        "cura-ocllo",
+        "manco-inca"
+      ],
+      "resumen": "Cura Ocllo, hermana paterna de Manco, se vuelve su coya principal según la práctica endogámica real inca.",
+      "fuentes": [
+        "titu-cusi-1570",
+        "pedro-pizarro-1571"
+      ],
+      "tags": [
+        "mujer",
+        "matrimonio-real"
+      ],
+      "citas": []
+    },
+    {
+      "id": "angelina-coya-atahualpa",
+      "acto": "acto-o",
+      "fecha": "~1531",
+      "lugar": "quito",
+      "titulo": "Cuxirimay Ocllo designada coya principal de Atahualpa",
+      "participantes": [
+        "angelina-yupanqui",
+        "atahualpa"
+      ],
+      "resumen": "Designada coya principal de Atahualpa en su consagración del norte. El matrimonio es endogámico real: Cuxirimay es hija de un hermano paterno de Huayna Cápac.",
+      "fuentes": [
+        "betanzos-1551"
+      ],
+      "tags": [
+        "mujer",
+        "matrimonio-real"
+      ],
+      "citas": []
+    },
+    {
+      "id": "tallanes-llevan-espanoles",
+      "acto": "acto-i",
+      "fecha": "~1532",
+      "lugar": "cajamarca",
+      "titulo": "Tallanes yungas guían a 2 emisarios españoles a Atahualpa en CAJAMARCA (no Cuzco)",
+      "participantes": [
+        "atahualpa",
+        "tallanes-yungas"
+      ],
+      "resumen": "Indios yungas tallanas, residentes en la costa a 15-20 leguas de Cajamarca, son los primeros andinos en ver a los españoles. Llevan a 2 emisarios DEL EJÉRCITO de Pizarro (no a los 168 enteros) ante Atahualpa, que está en Cajamarca. Es contacto previo de tanteo, antes de que llegue la marcha entera de Pizarro a Cajamarca (15-16 nov 1532). Per Titu Cusi (versión inca).",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "primer-contacto",
+        "tallanes"
+      ]
+    },
+    {
+      "id": "derrame-chicha-arrojo-quillca",
+      "acto": "acto-i",
+      "fecha": "~1532",
+      "lugar": "cajamarca",
+      "titulo": "Atahualpa recibe a los emisarios — derrame de chicha y arrojo de la quillca",
+      "participantes": [
+        "atahualpa"
+      ],
+      "resumen": "Atahualpa manda beber a un español de un vaso de oro con chicha. El español la derrama. Atahualpa se ofende. Luego le muestran un libro/carta ('la quillca de Dios y del Rey'). Atahualpa, afrentado, lo arroja al suelo. Doble malentendido ritual mutuo.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "malentendido-ritual",
+        "chicha",
+        "quillca"
+      ]
+    },
+    {
+      "id": "tallanes-avisan-manco",
+      "acto": "acto-i",
+      "fecha": "~1532",
+      "lugar": "cuzco",
+      "titulo": "Los tallanes van en secreto al Cuzco a avisar a Manco Inca",
+      "participantes": [
+        "manco-inca",
+        "tallanes-yungas"
+      ],
+      "resumen": "Sin decirle a Atahualpa ni a los españoles, los yungas tallanas van por su cuenta al Cuzco a informar a Manco. Lealtad al rey reconocido como legítimo.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "lealtad",
+        "tallanes",
+        "manco-rey-legitimo"
+      ]
+    },
+    {
+      "id": "manco-desconfia-cree",
+      "acto": "acto-i",
+      "fecha": "~1532",
+      "lugar": "cuzco",
+      "titulo": "Manco Inca recibe la noticia — desconfía, amenaza, luego cree",
+      "participantes": [
+        "manco-inca",
+        "tallanes-yungas"
+      ],
+      "resumen": "Manco amenaza a los mensajeros, luego se convence y envía sus propios verificadores a Cajamarca con orden de invitar a algunos españoles a visitarlo.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": []
+    },
+    {
+      "id": "pizarro-envia-villegas-antano",
+      "acto": "acto-i",
+      "fecha": "~1532",
+      "lugar": "cuzco",
+      "titulo": "Pizarro envía 2 emisarios A MANCO INCA en Cuzco (Villegas y Hernando de Soto, no a Atahualpa)",
+      "participantes": [
+        "francisco-pizarro",
+        "manco-inca"
+      ],
+      "resumen": "AVISO: estos son 2 emisarios distintos a los del primer contacto. Pizarro, ya en Cajamarca con Atahualpa cautivo, despacha dos hombres como embajadores AL CUZCO para hacer contacto con Manco Inca. Manco los hace traer en hamacas, gran fiesta con vajillas de oro y plata. Les da cántaros y vasos de oro, joyas, y los despacha con invitación formal. NO confundir con la captura de Atahualpa donde estuvieron los ~168 españoles en Cajamarca.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "embajada",
+        "vajilla-oro"
+      ]
+    },
+    {
+      "id": "muerte-huascar",
+      "acto": "acto-ii",
+      "fecha": "~1532",
+      "lugar": "huanuco-pampa",
+      "titulo": "Atahualpa manda matar a Huáscar",
+      "participantes": [
+        "atahualpa",
+        "huascar"
+      ],
+      "resumen": "Atahualpa, preso pero con influencia, teme que Manco se confedere con los españoles. Desde Cajamarca envía mensajeros secretos a su gente para matar a Huáscar. Lo matan en una refriega en Huánuco Pampa.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "fratricidio",
+        "guerra-civil-inca"
+      ]
+    },
+    {
+      "id": "ines-cajamarca-cautiva",
+      "acto": "acto-i",
+      "fecha": "1532-11",
+      "lugar": "cajamarca",
+      "titulo": "Quispe Sisa en el séquito de Atahualpa en Cajamarca",
+      "participantes": [
+        "ines-huaylas-yupanqui",
+        "atahualpa"
+      ],
+      "resumen": "Quispe Sisa, con ~14 años, está en el séquito de Atahualpa en Cajamarca cuando llega Pizarro. Su presencia se documenta por Pedro Pizarro, que la conoció directamente como paje de su pariente.",
+      "fuentes": [
+        "pedro-pizarro-1571"
+      ],
+      "tags": [
+        "mujer",
+        "atahualpa"
+      ],
+      "citas": []
+    },
+    {
+      "id": "ines-entregada-pizarro",
+      "acto": "acto-i",
+      "fecha": "~1532-12",
+      "lugar": "cajamarca",
+      "titulo": "Atahualpa entrega a Quispe Sisa a Pizarro",
+      "participantes": [
+        "ines-huaylas-yupanqui",
+        "atahualpa",
+        "francisco-pizarro"
+      ],
+      "resumen": "Durante el cautiverio, Atahualpa entrega a Quispe Sisa a Pizarro como gesto político de paz/alianza. Esta práctica era la costumbre andina: ofrecer mujeres de la sangre real para sellar pactos.",
+      "fuentes": [
+        "pedro-pizarro-1571",
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "mujer",
+        "diplomacia",
+        "concubinato"
+      ],
+      "citas": []
+    },
+    {
+      "id": "angelina-cajamarca",
+      "acto": "acto-i",
+      "fecha": "1532-11-15",
+      "lugar": "cajamarca",
+      "titulo": "Cuxirimay en Cajamarca con Atahualpa",
+      "participantes": [
+        "angelina-yupanqui",
+        "atahualpa"
+      ],
+      "resumen": "Cuxirimay, con ~11 años, está en Cajamarca como coya principal cuando Atahualpa es capturado por Pizarro. Acompaña al inca durante los 8 meses de cautiverio.",
+      "fuentes": [
+        "betanzos-1551",
+        "pedro-pizarro-1571"
+      ],
+      "tags": [
+        "mujer",
+        "atahualpa"
+      ],
+      "citas": []
+    },
+    {
+      "id": "hernando-baños-15-nov",
+      "acto": "acto-i",
+      "fecha": "1532-11-15",
+      "lugar": "banos-del-inca",
+      "titulo": "Hernando Pizarro y Soto entrevistan a Atahualpa en los Baños",
+      "participantes": [
+        "hernando-pizarro",
+        "hernando-de-soto",
+        "atahualpa"
+      ],
+      "resumen": "El día previo al encuentro, Pizarro envía a Soto con 20 jinetes a entrevistarse con Atahualpa en los Baños del Inca. Hernando Pizarro lo refuerza con otros 15. Soto hace alarde con su caballo casi atropellando al Inca; Atahualpa no se mueve. Acuerdan que Atahualpa irá al día siguiente a Cajamarca a verse con Pizarro.",
+      "fuentes": [
+        "xerez-1534",
+        "estete-1535",
+        "mena-1534"
+      ],
+      "tags": [
+        "diplomacia",
+        "atahualpa"
+      ],
+      "citas": []
+    },
+    {
+      "id": "captura-atahualpa-detail",
+      "acto": "acto-i",
+      "fecha": "1532-11-16",
+      "lugar": "cajamarca",
+      "titulo": "Captura de Atahualpa por los 168 españoles en la plaza",
+      "participantes": [
+        "francisco-pizarro",
+        "atahualpa",
+        "hernando-pizarro",
+        "hernando-de-soto",
+        "fray-vicente-de-valverde",
+        "felipillo"
+      ],
+      "resumen": "Los ~168 españoles de Pizarro están escondidos en las kallankas de la plaza de Cajamarca al atardecer. Atahualpa entra con ~6000 hombres del séquito ritual, sin armas pesadas. Valverde le entrega la quillca/breviario. Atahualpa la arroja al suelo. Pizarro hace la señal: dispara el falconete, sale la caballería al grito de '¡Santiago!'. Mueren 2000-7000 indígenas en minutos. Pizarro toma personalmente al inca prisionero (sufre una pequeña herida en la mano por proteger su vida).",
+      "fuentes": [
+        "xerez-1534",
+        "mena-1534",
+        "estete-1535",
+        "pedro-pizarro-1571"
+      ],
+      "tags": [
+        "batalla",
+        "captura"
+      ],
+      "citas": []
+    },
+    {
+      "id": "atahualpa-baños-15-nov",
+      "acto": "acto-i",
+      "fecha": "1532-11-15",
+      "lugar": "banos-del-inca",
+      "titulo": "Atahualpa en los Baños del Inca",
+      "participantes": [
+        "atahualpa"
+      ],
+      "resumen": "El día que llega Pizarro a Cajamarca, Atahualpa está en los Baños del Inca (Pultumarca) con su corte. Recibe a Hernando Pizarro y Soto. Acepta la propuesta de entrevistarse al día siguiente en la plaza.",
+      "fuentes": [
+        "xerez-1534",
+        "estete-1535"
+      ],
+      "tags": [
+        "atahualpa",
+        "diplomacia"
+      ],
+      "citas": []
+    },
+    {
+      "id": "atahualpa-propone-rescate",
+      "acto": "acto-i",
+      "fecha": "~1532-12",
+      "lugar": "cajamarca",
+      "titulo": "Atahualpa propone el rescate",
+      "participantes": [
+        "atahualpa",
+        "francisco-pizarro"
+      ],
+      "resumen": "Tras unos días de cautiverio, Atahualpa propone llenar un cuarto con oro hasta donde alcance la mano + dos cuartos con plata, a cambio de su libertad. Pizarro acepta. Esto inicia el flujo de oro desde todo el imperio.",
+      "fuentes": [
+        "xerez-1534",
+        "mena-1534"
+      ],
+      "tags": [
+        "rescate",
+        "atahualpa"
+      ],
+      "citas": []
+    },
+    {
+      "id": "soto-llega-tumbes",
+      "acto": "acto-i",
+      "fecha": "1532",
+      "lugar": "tumbes",
+      "titulo": "Hernando de Soto llega al Perú",
+      "participantes": [
+        "hernando-de-soto"
+      ],
+      "resumen": "Llega al Perú con su propia compañía y caballos, no como hombre de los Pizarro. Se une a la expedición pero mantiene autonomía. Trae prestigio de las conquistas centroamericanas.",
+      "fuentes": [
+        "xerez-1534",
+        "lockhart-1972"
+      ],
+      "tags": [
+        "llegada"
+      ],
+      "citas": []
+    },
+    {
+      "id": "ejecucion-atahualpa",
+      "acto": "acto-ii",
+      "fecha": "1533-07",
+      "lugar": "cajamarca",
+      "titulo": "Pizarro ejecuta a Atahualpa — garrote en la plaza",
+      "participantes": [
+        "francisco-pizarro",
+        "atahualpa"
+      ],
+      "resumen": "Pizarro saca a Atahualpa a la plaza y le da garrote en un palo. Luego levanta el real para venirse a ver con Manco. Los capitanes de Atahualpa — Challcochima y Quisquis — no aceptan.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "ejecucion",
+        "garrote"
+      ],
+      "fechas_alternativas_por_fuente": {
+        "titu-cusi-1570": "~1532",
+        "xerez-1534": "26 julio 1533 (corroborar)"
+      }
+    },
+    {
+      "id": "encuentro-vilcacunga",
+      "acto": "acto-iii",
+      "fecha": "~1533",
+      "lugar": "vilcacunga",
+      "titulo": "Encuentro Manco–Pizarro en Vilcacunga — el abrazo",
+      "participantes": [
+        "manco-inca",
+        "francisco-pizarro"
+      ],
+      "resumen": "Manco llega en andas de oro y cristal con corona real. Se apea. Pizarro se apea del caballo. Se abrazan. Confederación sellada. Challcochima ya viene preso. Acampan en Jaquijahuana.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "alianza-manco-pizarro",
+        "andas-oro"
+      ]
+    },
+    {
+      "id": "quema-challcochima",
+      "acto": "acto-iii",
+      "fecha": "~1533",
+      "lugar": "jaquijahuana",
+      "titulo": "Challcochima quemado en Jaquijahuana",
+      "participantes": [
+        "manco-inca",
+        "francisco-pizarro",
+        "challcochima"
+      ],
+      "resumen": "Pizarro entrega a Challcochima a Manco. Manco ordena quemarlo en público, 'porque fuese la nueva a Quisquis su compañero y fuese para éste castigo, y a los demás, ejemplo'.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "ejecucion-ritual"
+      ]
+    },
+    {
+      "id": "entrada-conjunta-cuzco",
+      "acto": "acto-iii",
+      "fecha": "1533-11",
+      "lugar": "cuzco",
+      "titulo": "Entrada conjunta al Cuzco",
+      "participantes": [
+        "manco-inca",
+        "francisco-pizarro"
+      ],
+      "resumen": "Manco ordena a toda su gente que respeten a los españoles como 'cosa del Viracochan' y les den servicio. Da de sus propios criados al marqués. Gran regocijo por la victoria sobre Quisquis.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "entrada-cuzco"
+      ]
+    },
+    {
+      "id": "batalla-capi",
+      "acto": "acto-iii",
+      "fecha": "~1533-12",
+      "lugar": "capi",
+      "titulo": "Batalla en Capi y Vinchu (~15 leguas al NORTE del Cuzco)",
+      "participantes": [
+        "manco-inca",
+        "hernando-de-soto",
+        "quisquis"
+      ],
+      "resumen": "Tras la entrada al Cuzco, Quisquis retrocede hacia el norte por el Capac Ñan rumbo a Quito. Manco sale del Cuzco con Hernando de Soto y 50 jinetes y lo persigue HACIA EL NORTE (camino real Cuzco → Curahuasi → Abancay → Vilcas). Lo desbarata en Capi y Vinchu, ~15 leguas (75 km) al N. Quisquis escapa. Manco envía mensajeros por la posta hasta Quito (400 leguas) para que lo maten donde aparezca.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "batalla",
+        "persecucion-norte"
+      ]
+    },
+    {
+      "id": "ines-bautizada",
+      "acto": "acto-i",
+      "fecha": "~1533",
+      "lugar": "cajamarca",
+      "titulo": "Quispe Sisa bautizada como Inés",
+      "participantes": [
+        "ines-huaylas-yupanqui",
+        "fray-vicente-de-valverde"
+      ],
+      "resumen": "Bautizada por Valverde con el nombre Inés. El nombre completo 'Inés Huaylas Yupanqui' combina su patronímico (Yupanqui, dinastía real) con su origen materno (Huaylas).",
+      "fuentes": [
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "mujer",
+        "bautismo"
+      ],
+      "citas": []
+    },
+    {
+      "id": "ines-marcha-sur",
+      "acto": "acto-iii",
+      "fecha": "1533-08",
+      "lugar": "huamachuco",
+      "titulo": "Inés acompaña a Pizarro de Cajamarca a Cuzco",
+      "participantes": [
+        "ines-huaylas-yupanqui",
+        "francisco-pizarro"
+      ],
+      "resumen": "Forma parte del séquito femenino de Pizarro en la marcha al sur. Lleva el embarazo de Francisca durante el cruce del Capac Ñan central.",
+      "fuentes": [
+        "pedro-pizarro-1571"
+      ],
+      "tags": [
+        "mujer",
+        "viaje"
+      ],
+      "citas": []
+    },
+    {
+      "id": "angelina-pasa-pizarro",
+      "acto": "acto-ii",
+      "fecha": "1533-07",
+      "lugar": "cajamarca",
+      "titulo": "Cuxirimay pasa a Pizarro tras la ejecución de Atahualpa",
+      "participantes": [
+        "angelina-yupanqui",
+        "francisco-pizarro"
+      ],
+      "resumen": "Tras la ejecución de Atahualpa, Pizarro toma a Cuxirimay como concubina. Es bautizada como Angelina.",
+      "fuentes": [
+        "pedro-pizarro-1571",
+        "betanzos-1551"
+      ],
+      "tags": [
+        "mujer",
+        "concubinato"
+      ],
+      "citas": []
+    },
+    {
+      "id": "angelina-marcha-cuzco",
+      "acto": "acto-iii",
+      "fecha": "1533-08",
+      "lugar": "huamachuco",
+      "titulo": "Angelina viaja con Pizarro al sur",
+      "participantes": [
+        "angelina-yupanqui",
+        "francisco-pizarro"
+      ],
+      "resumen": "Acompaña al ejército español en la marcha de Cajamarca a Cuzco junto con Inés Huaylas.",
+      "fuentes": [
+        "pedro-pizarro-1571"
+      ],
+      "tags": [
+        "mujer",
+        "viaje"
+      ],
+      "citas": []
+    },
+    {
+      "id": "hernando-pachacamac",
+      "acto": "acto-i",
+      "fecha": "1533-01-20",
+      "lugar": "pachacamac",
+      "titulo": "Hernando Pizarro parte a Pachacámac",
+      "participantes": [
+        "hernando-pizarro"
+      ],
+      "resumen": "Sale de Cajamarca con 20 jinetes y un puñado de infantes hacia Pachacámac, el gran oráculo costero. Va a verificar las cantidades de oro prometidas y a desmantelar el ídolo. Le acompaña Miguel de Estete (cuya 'Noticia' es la fuente principal). Cruzan la sierra hasta Huánuco Pampa y bajan a la costa por Pachacámac.",
+      "fuentes": [
+        "estete-1535",
+        "hernando-pizarro-1533"
+      ],
+      "tags": [
+        "viaje",
+        "oro"
+      ],
+      "citas": []
+    },
+    {
+      "id": "hernando-pachacamac-vuelta",
+      "acto": "acto-ii",
+      "fecha": "1533-04-25",
+      "lugar": "cajamarca",
+      "titulo": "Hernando vuelve a Cajamarca",
+      "participantes": [
+        "hernando-pizarro",
+        "atahualpa",
+        "challcochima"
+      ],
+      "resumen": "Vuelve a Cajamarca con poco oro de Pachacámac (los sacerdotes habían escondido lo principal). Trae además al general Challcochima en convoy (lo había convencido de subir desde Jauja).",
+      "fuentes": [
+        "estete-1535",
+        "xerez-1534"
+      ],
+      "tags": [
+        "viaje",
+        "challcochima"
+      ],
+      "citas": []
+    },
+    {
+      "id": "hernando-carta-audiencia",
+      "acto": "acto-ii",
+      "fecha": "1533-04",
+      "lugar": "cajamarca",
+      "titulo": "Hernando Pizarro escribe carta a la Audiencia de Santo Domingo",
+      "participantes": [
+        "hernando-pizarro"
+      ],
+      "resumen": "Tras volver de Pachacámac, escribe una larga carta a la Audiencia de Santo Domingo describiendo el imperio inca, el rescate y la visita al oráculo. Este texto (embebido después en Oviedo) es una de las relaciones más tempranas del Tahuantinsuyu.",
+      "fuentes": [
+        "hernando-pizarro-1533"
+      ],
+      "tags": [
+        "carta",
+        "fuente"
+      ],
+      "citas": []
+    },
+    {
+      "id": "hernando-lleva-rescate",
+      "acto": "acto-ii",
+      "fecha": "1533-07-13",
+      "lugar": "cajamarca",
+      "titulo": "Hernando parte hacia España con el primer rescate",
+      "participantes": [
+        "hernando-pizarro"
+      ],
+      "resumen": "Sale de Cajamarca (días antes de la ejecución de Atahualpa) llevando la primera remesa del rescate hacia la costa, embarcando hacia Panamá y de allí a Sevilla. Su salida lo distancia políticamente de la ejecución.",
+      "fuentes": [
+        "xerez-1534",
+        "hemming-1970"
+      ],
+      "tags": [
+        "viaje",
+        "oro"
+      ],
+      "citas": []
+    },
+    {
+      "id": "atahualpa-cuarto-rescate-completo",
+      "acto": "acto-ii",
+      "fecha": "1533-05",
+      "lugar": "cajamarca",
+      "titulo": "Cuarto del rescate completado",
+      "participantes": [
+        "atahualpa",
+        "francisco-pizarro"
+      ],
+      "resumen": "Tras meses de envíos desde el Cuzco, Pachacámac y otras ciudades, el cuarto se llena. Los españoles funden el oro: ~6 toneladas de oro y ~12 de plata en lingotes. Cada hombre recibe varios kilos.",
+      "fuentes": [
+        "xerez-1534",
+        "hemming-1970"
+      ],
+      "tags": [
+        "oro",
+        "rescate"
+      ],
+      "citas": []
+    },
+    {
+      "id": "atahualpa-bautizo",
+      "acto": "acto-ii",
+      "fecha": "1533-07-26",
+      "lugar": "cajamarca",
+      "titulo": "Atahualpa bautizado in extremis como Francisco",
+      "participantes": [
+        "atahualpa",
+        "fray-vicente-de-valverde",
+        "francisco-pizarro"
+      ],
+      "resumen": "Antes del garrote, Valverde le ofrece bautizo a Atahualpa con la promesa de morir por garrote (no hoguera). Atahualpa acepta. Es bautizado como Francisco. Inmediatamente después es ejecutado en la plaza.",
+      "fuentes": [
+        "xerez-1534",
+        "mena-1534",
+        "estete-1535"
+      ],
+      "tags": [
+        "bautismo",
+        "ejecucion"
+      ],
+      "citas": []
+    },
+    {
+      "id": "soto-vilcaconga-emboscada",
+      "acto": "acto-iii",
+      "fecha": "1533-11-08",
+      "lugar": "vilcacunga",
+      "titulo": "Soto sufre emboscada de Quisquis en Vilcaconga",
+      "participantes": [
+        "hernando-de-soto",
+        "quisquis"
+      ],
+      "resumen": "Soto adelanta con ~70 jinetes (3 días delante de Pizarro). En el abra de Vilcaconga, miles de guerreros de Quisquis caen con galgas y flechas. Mueren 5 españoles y caballos. Soto resiste; refuerzos nocturnos de Almagro con 30 jinetes lo salvan.",
+      "fuentes": [
+        "xerez-1534",
+        "estete-1535",
+        "pedro-pizarro-1571"
+      ],
+      "tags": [
+        "batalla",
+        "vilcaconga"
+      ],
+      "citas": []
+    },
+    {
+      "id": "muerte-quisquis",
+      "acto": "acto-iii",
+      "fecha": "~1534",
+      "lugar": "quito",
+      "titulo": "Quisquis muerto por su propia gente",
+      "participantes": [
+        "quisquis"
+      ],
+      "resumen": "Tras muchas guazábaras dispersas, su propia gente, harta de sus traiciones al rey legítimo, le corta la cabeza.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": []
+    },
+    {
+      "id": "nace-francisca-pizarro",
+      "acto": "acto-iii",
+      "fecha": "~1534-12-28",
+      "lugar": "xauxa",
+      "titulo": "Nace Francisca Pizarro Yupanqui",
+      "participantes": [
+        "ines-huaylas-yupanqui",
+        "francisco-pizarro",
+        "francisca-pizarro-yupanqui"
+      ],
+      "resumen": "Nace en Jauja la primera hija mestiza noble del Perú. Bautizada inmediatamente como Francisca. Será legitimada por cédula real (Carlos V) en 1538.",
+      "fuentes": [
+        "rostworowski-francisca-pizarro",
+        "hemming-1970"
+      ],
+      "tags": [
+        "mujer",
+        "nacimiento",
+        "mestiza"
+      ],
+      "citas": []
+    },
+    {
+      "id": "contarguacho-visita-hija",
+      "acto": "acto-iv",
+      "fecha": "~1534",
+      "lugar": "cuzco",
+      "titulo": "Contarguacho visita a su hija Inés y nieta Francisca",
+      "participantes": [
+        "contarguacho",
+        "ines-huaylas-yupanqui",
+        "francisca-pizarro-yupanqui"
+      ],
+      "resumen": "Viaja desde Huaylas a visitar a Inés y a su recién nacida nieta Francisca. Establece vínculo directo con la familia mestiza Pizarro.",
+      "fuentes": [
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "mujer",
+        "viaje",
+        "familia"
+      ],
+      "citas": []
+    },
+    {
+      "id": "hernando-rey-toledo",
+      "acto": "acto-iii",
+      "fecha": "1534-04",
+      "lugar": "toledo",
+      "titulo": "Hernando presenta el rescate al rey Carlos V en Toledo",
+      "participantes": [
+        "hernando-pizarro"
+      ],
+      "resumen": "Llega a Sevilla en enero 1534, va a Toledo, entrega el oro al rey en abril. Es momento culminante del prestigio Pizarro en la corte: la noticia del 'Perú' se vuelve la sensación europea.",
+      "fuentes": [
+        "hemming-1970"
+      ],
+      "tags": [
+        "viaje",
+        "diplomacia"
+      ],
+      "citas": []
+    },
+    {
+      "id": "primera-prision",
+      "acto": "acto-iv",
+      "fecha": "~1535",
+      "lugar": "cuzco",
+      "titulo": "PRIMERA PRISIÓN — más de 100 españoles toman a Manco en su casa",
+      "participantes": [
+        "manco-inca",
+        "hernando-pizarro"
+      ],
+      "resumen": "Más de 100 españoles van 'so color que le iban a ver' y prenden a Manco con grillos a los pies y cadena al cuello. Acusación falsa de querer levantarse. Hernando Pizarro exige tesoro Y la coya Cura Ocllo como esposa.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "prision",
+        "codicia"
+      ]
+    },
+    {
+      "id": "parlamento-primer-tesoro",
+      "acto": "acto-iv",
+      "fecha": "~1535",
+      "lugar": "cuzco",
+      "titulo": "Parlamento del primer tesoro — las 4 partes del Tawantinsuyu",
+      "participantes": [
+        "manco-inca"
+      ],
+      "resumen": "Manco convoca a más de 10,000 principales de los cuatro suyos (Chinchaysuyo, Collasuyo, Condesuyo, Andesuyo). Junta oro y plata para 'redimir su vexación'. Los vasallos hacen gran llanto. Llenan un bohío grande.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "tawantinsuyu",
+        "tributo"
+      ]
+    },
+    {
+      "id": "segunda-prision-gonzalo",
+      "acto": "acto-iv",
+      "fecha": "~1535",
+      "lugar": "cuzco",
+      "titulo": "SEGUNDA PRISIÓN — Gonzalo Pizarro",
+      "participantes": [
+        "manco-inca",
+        "gonzalo-pizarro"
+      ],
+      "resumen": "Francisco Pizarro ya se ha marchado a Lima. Gonzalo, como corregidor, va a una fiesta de Manco y lo prende con pretexto falso de traición nocturna. Cadena más pesada. Exige doble tesoro Y la coya.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "prision"
+      ]
+    },
+    {
+      "id": "engano-coya-ynguill",
+      "acto": "acto-iv",
+      "fecha": "~1535",
+      "lugar": "cuzco",
+      "titulo": "Engaño de la coya — Manco entrega a Ynguill en lugar de Cura Ocllo",
+      "participantes": [
+        "manco-inca",
+        "gonzalo-pizarro",
+        "cura-ocllo",
+        "ynguill"
+      ],
+      "resumen": "Manco hace desfilar a más de 20 mujeres, ninguna convence. Manda salir a Ynguill ('que quiere decir flor'), dama de compañía de la coya, vestida como reyna. Gonzalo cae. Manco se ríe. La liberación se cumple.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "engano-ritual"
+      ]
+    },
+    {
+      "id": "ines-lima-fundacion",
+      "acto": "acto-iv",
+      "fecha": "1535-01-18",
+      "lugar": "lima",
+      "titulo": "Inés Huaylas presente en la fundación de Lima",
+      "participantes": [
+        "ines-huaylas-yupanqui",
+        "francisco-pizarro"
+      ],
+      "resumen": "Inés (~17 años) acompaña a Pizarro en la fundación de la Ciudad de los Reyes. Reside en las casas reales que Pizarro hace edificar al lado de la plaza mayor.",
+      "fuentes": [
+        "pedro-pizarro-1571",
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "mujer",
+        "lima"
+      ],
+      "citas": []
+    },
+    {
+      "id": "nace-gonzalo-yupanqui",
+      "acto": "acto-iv",
+      "fecha": "~1535",
+      "lugar": "lima",
+      "titulo": "Nace Gonzalo Pizarro Yupanqui (hijo de Inés)",
+      "participantes": [
+        "ines-huaylas-yupanqui",
+        "francisco-pizarro"
+      ],
+      "resumen": "Inés da a luz al segundo hijo de Pizarro: Gonzalo. Muere niño antes de 1541.",
+      "fuentes": [
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "nacimiento",
+        "mestizo"
+      ],
+      "citas": []
+    },
+    {
+      "id": "angelina-lima-1535",
+      "acto": "acto-iv",
+      "fecha": "1535-01",
+      "lugar": "lima",
+      "titulo": "Angelina se establece en Lima con Pizarro",
+      "participantes": [
+        "angelina-yupanqui",
+        "francisco-pizarro"
+      ],
+      "resumen": "Comparte vivienda con Pizarro en Lima. Es 'segunda concubina' después/junto a Inés Huaylas.",
+      "fuentes": [
+        "pedro-pizarro-1571"
+      ],
+      "tags": [
+        "mujer",
+        "lima"
+      ],
+      "citas": []
+    },
+    {
+      "id": "cura-ocllo-prision-1",
+      "acto": "acto-iv",
+      "fecha": "~1535",
+      "lugar": "cuzco",
+      "titulo": "Hernando Pizarro exige a Cura Ocllo durante la 1ª prisión",
+      "participantes": [
+        "cura-ocllo",
+        "manco-inca",
+        "hernando-pizarro"
+      ],
+      "resumen": "Durante la 1ª prisión de Manco, Hernando exige no solo el tesoro sino también a la coya Cura Ocllo. Manco la mantiene a salvo.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "tags": [
+        "mujer",
+        "violencia-sexual",
+        "prision"
+      ],
+      "citas": []
+    },
+    {
+      "id": "cura-ocllo-engano-ynguill",
+      "acto": "acto-iv",
+      "fecha": "~1535",
+      "lugar": "cuzco",
+      "titulo": "Engaño de Ynguill — Manco salva a Cura Ocllo",
+      "participantes": [
+        "cura-ocllo",
+        "manco-inca",
+        "gonzalo-pizarro",
+        "ynguill"
+      ],
+      "resumen": "Durante la 2ª prisión, Gonzalo Pizarro exige a Cura Ocllo. Manco hace desfilar 20 mujeres; ninguna convence a Gonzalo. Finalmente Manco presenta a Ynguill (dama de Cura Ocllo) vestida como coya. Gonzalo cae. Cura Ocllo queda a salvo. Manco se ríe.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "tags": [
+        "mujer",
+        "engano-politico"
+      ],
+      "citas": []
+    },
+    {
+      "id": "hernando-vuelve-1535",
+      "acto": "acto-iv",
+      "fecha": "1535-01",
+      "lugar": "sevilla",
+      "titulo": "Hernando se embarca de regreso al Perú",
+      "participantes": [
+        "hernando-pizarro"
+      ],
+      "resumen": "Sale de Sevilla con refuerzos y nuevos pobladores. Lleva título de caballero de Santiago.",
+      "fuentes": [
+        "hemming-1970"
+      ],
+      "tags": [
+        "viaje"
+      ],
+      "citas": []
+    },
+    {
+      "id": "hernando-prende-manco-1",
+      "acto": "acto-iv",
+      "fecha": "~1535",
+      "lugar": "cuzco",
+      "titulo": "Hernando toma a Manco preso (1ª prisión)",
+      "participantes": [
+        "hernando-pizarro",
+        "manco-inca"
+      ],
+      "resumen": "Como corregidor del Cuzco, Hernando dirige a 100+ españoles a la casa de Manco con pretexto de visita. Lo encadenan con grillos y cadena al cuello. Exigen el tesoro y a Cura Ocllo. Manco organiza el llamado de los 4 suyos para juntar el primer rescate.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "tags": [
+        "prision"
+      ],
+      "citas": []
+    },
+    {
+      "id": "soto-vuelve-españa",
+      "acto": "acto-iv",
+      "fecha": "1535",
+      "lugar": "lima",
+      "titulo": "Soto vuelve a España rico",
+      "participantes": [
+        "hernando-de-soto"
+      ],
+      "resumen": "Tras la entrada al Cuzco y la persecución de Quisquis, Soto recibe su parte del oro y vuelve a España. Allí financia su propia expedición a la Florida (1539).",
+      "fuentes": [
+        "hemming-1970"
+      ],
+      "tags": [
+        "viaje"
+      ],
+      "citas": []
+    },
+    {
+      "id": "fiesta-vacaroc",
+      "acto": "acto-iv",
+      "fecha": "~1536",
+      "lugar": "cuzco",
+      "titulo": "Fiesta del vacaroc (horadado de orejas) — amago de tercera prisión",
+      "participantes": [
+        "manco-inca"
+      ],
+      "resumen": "Manco organiza la gran fiesta anual del vacaroc. Sale con más de 1000 hombres portando cetros de oro y plata. Los españoles arrebatan por fuerza los cetros de plata, aunque no llegan a prender a Manco.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "fiesta",
+        "vacaroc",
+        "rito-iniciacion"
+      ]
+    },
+    {
+      "id": "conspiracion-pascac",
+      "acto": "acto-iv",
+      "fecha": "~1536",
+      "lugar": "cuzco",
+      "titulo": "Conspiración de Pascac — hermano de Manco inducido por españoles",
+      "participantes": [
+        "manco-inca",
+        "pascac"
+      ],
+      "resumen": "Pascac, inducido por personas no identificadas (con puñal dado por españoles), planea apuñalar a Manco durante la mocha para proclamarse rey. Un criado español de Manco lo delata. Manco lo mata con el mismo puñal.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "traicion-fratricidio",
+        "mocha"
+      ]
+    },
+    {
+      "id": "fuga-callea",
+      "acto": "acto-v",
+      "fecha": "~1536",
+      "lugar": "callea",
+      "titulo": "Manco finge ir a cazar a Callea",
+      "participantes": [
+        "manco-inca"
+      ],
+      "resumen": "Avisado por el intérprete Antonico de que Juan Pizarro agita por una tercera prisión, Manco finge querer ir a cazar. Los españoles lo dejan ir. Desde Callea, por la posta, envía mensaje secreto a Queso Yupanqui en Lima para coordinar dos frentes simultáneos.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "fuga",
+        "posta"
+      ]
+    },
+    {
+      "id": "movilizacion-4-suyos",
+      "acto": "acto-v",
+      "fecha": "~1536",
+      "lugar": "cuzco",
+      "titulo": "Mensajeros a las 4 partes — movilización general",
+      "participantes": [
+        "manco-inca",
+        "vila-orna",
+        "coyllas",
+        "ozca",
+        "cori-atao",
+        "taipi",
+        "lliclli",
+        "suranvaman",
+        "quicana",
+        "surivallpa",
+        "ronpa-yupanqui"
+      ],
+      "resumen": "Manco manda capitanes a los cuatro suyos para juntarse en el Cuzco en 20 días sin que los españoles se enteren.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "movilizacion-militar"
+      ]
+    },
+    {
+      "id": "cerco-cuzco",
+      "acto": "acto-v",
+      "fecha": "1536-04",
+      "lugar": "cuzco",
+      "titulo": "CERCO DEL CUZCO — más de 400,000 hombres rodean la ciudad",
+      "participantes": [
+        "manco-inca",
+        "vila-orna"
+      ],
+      "resumen": "Más de 400,000 indios desde las cuatro partes cierran el cerco. Sueltan todas las acequias para anegar los caminos. Coriatao y Cuyllas por Carmenga-Chinchaysuyo; Vamani y Quicaña por Caocachi-Condesuyo; Licllis y otros por Collasuyo; Allca y Ranpa Yupanqui por Andesuyo.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "cerco",
+        "batalla-mayor"
+      ]
+    },
+    {
+      "id": "noche-iglesia",
+      "acto": "acto-v",
+      "fecha": "1536-04",
+      "lugar": "cuzco",
+      "titulo": "Los españoles pasan la noche rezando de rodillas en la iglesia",
+      "participantes": [],
+      "resumen": "Rodeados sin escape, los españoles pasan la noche entera en la iglesia llamando a Dios. Los indios tiran piedras, queman casas, intentan prender la iglesia. Los negros apostados en el techo lo impiden, con muchos flechazos.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "iglesia-cuzco",
+        "negros-aliados-espanoles"
+      ]
+    },
+    {
+      "id": "batalla-sacsahuaman",
+      "acto": "acto-v",
+      "fecha": "1536-05",
+      "lugar": "sacsahuaman",
+      "titulo": "Batalla de Sacsahuamán — 3 días, muere Juan Pizarro",
+      "participantes": [
+        "juan-pizarro",
+        "vila-orna"
+      ],
+      "resumen": "Tres días de batalla feroz. Los indios arrojan galgas (enormes rocas) desde los muros y tiran flechas y dardos: matan a Juan Pizarro, dos negros y muchos indios aliados. Al agotarse la munición, los españoles entran por fuerza. Muchos indios se arrojan de los muros.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "batalla",
+        "muerte-juan-pizarro"
+      ]
+    },
+    {
+      "id": "retirada-tambo",
+      "acto": "acto-vi",
+      "fecha": "~1536",
+      "lugar": "tambo",
+      "titulo": "Manco en Tambo — fortaleza y parlamento a sus capitanes",
+      "participantes": [
+        "manco-inca"
+      ],
+      "resumen": "Manco se retira a Tambo pasando por Yucay donde duerme una noche. Gran discurso: 'somos sus enemigos capitales y nosotros lo hemos de ser suyos perpetuamente'. En año y medio construyen una de las fortalezas más fuertes del Perú.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "retirada",
+        "fortaleza"
+      ]
+    },
+    {
+      "id": "batalla-tambo-ordonez",
+      "acto": "acto-vi",
+      "fecha": "~1536",
+      "lugar": "tambo",
+      "titulo": "Batalla en Tambo vs. Diego Ordóñez — empate y huida nocturna",
+      "participantes": [
+        "manco-inca",
+        "diego-ordonez"
+      ],
+      "resumen": "Refriega en la llanura de Pascapanpa y Pachar: muere un español y tres negros. Los españoles acampan haciendo lumbradas. A la madrugada se vuelven al Cuzco. Los indios se ríen 'diciendo que se habían huido de miedo'.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "batalla",
+        "huida"
+      ]
+    },
+    {
+      "id": "contarguacho-tropas-lima",
+      "acto": "acto-v",
+      "fecha": "1536-08",
+      "lugar": "lima",
+      "titulo": "Contarguacho envía tropas huaylas a defender Lima",
+      "participantes": [
+        "contarguacho",
+        "ines-huaylas-yupanqui"
+      ],
+      "resumen": "Cuando Quizo Yupanqui asedia Lima en agosto 1536, Contarguacho envía un contingente militar de Huaylas para defender la ciudad. Su motivación es proteger a su hija y a su nieta Francisca. Es uno de los casos más explícitos de una señora étnica aliándose con los españoles por parentesco mestizo.",
+      "fuentes": [
+        "pedro-pizarro-1571",
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "mujer",
+        "guerra",
+        "alianza"
+      ],
+      "citas": []
+    },
+    {
+      "id": "cura-ocllo-callea",
+      "acto": "acto-v",
+      "fecha": "1536-04",
+      "lugar": "callea",
+      "titulo": "Cura Ocllo huye con Manco a Callea",
+      "participantes": [
+        "cura-ocllo",
+        "manco-inca"
+      ],
+      "resumen": "Acompaña a Manco en la fuga desde Cuzco a Callea bajo pretexto de cacería. Desde Callea comienza la movilización del cerco.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "tags": [
+        "mujer",
+        "viaje"
+      ],
+      "citas": []
+    },
+    {
+      "id": "discurso-despedida-andes",
+      "acto": "acto-vi",
+      "fecha": "~1537",
+      "lugar": "tambo",
+      "titulo": "Manco decide internarse en los Andes — discurso de despedida",
+      "participantes": [
+        "manco-inca",
+        "titu-cusi"
+      ],
+      "resumen": "Manco presenta a Titu Cusi como heredero. Doctrina del disimulo: 'no les creáis cosa que os dijeren, porque mienten mucho... dar muestras por de fuera de que consentís... y si acaso ellos os acometieren o quisieren tomar vuestras tierras, no dejéis de defenderos'.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "discurso",
+        "doctrina-disimulo"
+      ]
+    },
+    {
+      "id": "vitcos-captura-titu-cusi",
+      "acto": "acto-vi",
+      "fecha": "~1537",
+      "lugar": "vitcos",
+      "titulo": "Vitcos — los españoles sorprenden la fiesta, capturan a Titu Cusi niño",
+      "participantes": [
+        "manco-inca",
+        "titu-cusi",
+        "diego-de-almagro",
+        "gonzalo-pizarro",
+        "diego-ordonez"
+      ],
+      "resumen": "Instalados en Vitcos con los cuerpos de los antepasados (Viracochan Inga, Pachacuti, Topa Inga Yupanqui, Huayna Capac). Almagro, Gonzalo y Ordóñez los rodean borrachos y sin armas. Se llevan 50,000 cabezas de ganado, los cuerpos, joyas, mujeres, coyas, y a Titu Cusi niño. Lo recoge Oñate en el Cuzco.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "sorpresa",
+        "ancestros",
+        "captura"
+      ]
+    },
+    {
+      "id": "oroncoy",
+      "acto": "acto-vi",
+      "fecha": "~1537",
+      "lugar": "oroncoy",
+      "titulo": "Oroncoy — 200 españoles despeñados, victoria decisiva",
+      "participantes": [
+        "manco-inca",
+        "cura-ocllo"
+      ],
+      "resumen": "Cura Ocllo despierta a Manco al oír el tropel de caballos. Manco pone a mujeres en fila con lanzas disfrazadas de guerreros. Cuando atacan, desbarrancan a los españoles por peñas y barrancas. Solo escapan 2 de 200. Cinco días de fiestas y bailes.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "batalla",
+        "victoria-manco"
+      ]
+    },
+    {
+      "id": "ines-casa-ampuero",
+      "acto": "acto-v",
+      "fecha": "~1537-09",
+      "lugar": "lima",
+      "titulo": "Pizarro casa a Inés con Francisco de Ampuero",
+      "participantes": [
+        "ines-huaylas-yupanqui",
+        "francisco-pizarro"
+      ],
+      "resumen": "Pizarro retira a Inés de su lecho casándola con su secretario Francisco de Ampuero. Es ya hombre cincuentón con hijos legítimos planeados en España (Hernando piensa traerle esposa española). Los hijos (Francisca, Gonzalo) quedan con Pizarro. Inés tiene ~19 años; Ampuero será su esposo legal hasta su muerte.",
+      "fuentes": [
+        "rostworowski-francisca-pizarro",
+        "pedro-pizarro-1571"
+      ],
+      "tags": [
+        "mujer",
+        "matrimonio-forzado"
+      ],
+      "citas": []
+    },
+    {
+      "id": "cura-ocllo-vitcos",
+      "acto": "acto-vi",
+      "fecha": "~1537",
+      "lugar": "vitcos",
+      "titulo": "Cura Ocllo en Vitcos con Manco",
+      "participantes": [
+        "cura-ocllo",
+        "manco-inca"
+      ],
+      "resumen": "Vive en Vitcos durante la fase de resistencia neoinca temprana.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "tags": [
+        "mujer",
+        "vilcabamba"
+      ],
+      "citas": []
+    },
+    {
+      "id": "cura-ocllo-oroncoy-salva-manco",
+      "acto": "acto-vi",
+      "fecha": "~1537",
+      "lugar": "oroncoy",
+      "titulo": "Cura Ocllo salva la vida de Manco en Oroncoy",
+      "participantes": [
+        "cura-ocllo",
+        "manco-inca"
+      ],
+      "resumen": "De noche, Cura Ocllo despierta a Manco al oír el tropel de los caballos españoles que se acercaban. Manco monta en segundos y organiza la trampa que despeña a 200 españoles. Sin ella, lo habrían sorprendido durmiendo.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "tags": [
+        "mujer",
+        "guerra",
+        "rescate"
+      ],
+      "citas": []
+    },
+    {
+      "id": "batalla-xauxa",
+      "acto": "acto-vi",
+      "fecha": "~1538",
+      "lugar": "xauxa",
+      "titulo": "Batalla de Xauxa — Manco mata 50 españoles",
+      "participantes": [
+        "manco-inca",
+        "huancas"
+      ],
+      "resumen": "Los huancas se alían con los españoles. Manco marcha hacia Xauxa. Dos días de refriega. Mata 50 españoles. Destruye el ídolo guanca Guarivillca: lo desentierra, lo arrastra 20 leguas con soga al cuello, lo arroja a un río.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "batalla",
+        "huancas-aliados-espanoles",
+        "destruccion-idolo"
+      ]
+    },
+    {
+      "id": "ines-hijos-ampuero",
+      "acto": "acto-v",
+      "fecha": "~1538-1545",
+      "lugar": "lima",
+      "titulo": "Inés tiene hijos con Ampuero (Martín, Isabel, Francisca de Ampuero)",
+      "participantes": [
+        "ines-huaylas-yupanqui"
+      ],
+      "resumen": "Inés y Ampuero tienen al menos tres hijos: Martín de Ampuero (heredará la encomienda), Isabel, Francisca de Ampuero. Esta segunda familia es legítima y española.",
+      "fuentes": [
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "mujer",
+        "familia"
+      ],
+      "citas": []
+    },
+    {
+      "id": "nace-francisco-hijo",
+      "acto": "acto-v",
+      "fecha": "~1538",
+      "lugar": "lima",
+      "titulo": "Nace Francisco Pizarro hijo (de Angelina)",
+      "participantes": [
+        "angelina-yupanqui",
+        "francisco-pizarro"
+      ],
+      "resumen": "Angelina da a luz al hijo Francisco Pizarro (homónimo del padre).",
+      "fuentes": [
+        "pedro-pizarro-1571"
+      ],
+      "tags": [
+        "nacimiento",
+        "mestizo"
+      ],
+      "citas": []
+    },
+    {
+      "id": "francisca-legitimada",
+      "acto": "acto-v",
+      "fecha": "1538",
+      "lugar": "lima",
+      "titulo": "Francisca legitimada por Cédula Real",
+      "participantes": [
+        "francisca-pizarro-yupanqui"
+      ],
+      "resumen": "Carlos V emite cédula legitimando a Francisca (hija natural) como hija legítima de Pizarro y heredera formal. Hito legal: primera mestiza con plenos derechos hereditarios coloniales.",
+      "fuentes": [
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "legitimacion",
+        "mestiza"
+      ],
+      "citas": []
+    },
+    {
+      "id": "hernando-vuelve-españa-1539",
+      "acto": "acto-vi",
+      "fecha": "1539",
+      "lugar": "lima",
+      "titulo": "Hernando se embarca a España con más oro",
+      "participantes": [
+        "hernando-pizarro"
+      ],
+      "resumen": "Tras vencer a Almagro y ejecutarlo (1538), Hernando vuelve a España con un cargamento mayor de oro. Pero la corona y los aliados de Almagro reclaman justicia.",
+      "fuentes": [
+        "hemming-1970"
+      ],
+      "tags": [
+        "viaje"
+      ],
+      "citas": []
+    },
+    {
+      "id": "soto-florida",
+      "acto": "acto-v",
+      "fecha": "1539-05-25",
+      "lugar": "cuba",
+      "titulo": "Soto sale a la Florida",
+      "participantes": [
+        "hernando-de-soto"
+      ],
+      "resumen": "Sale de Cuba con su propia expedición a la Florida. Recorre el sureste de Norteamérica durante 3 años buscando otro Perú.",
+      "fuentes": [],
+      "tags": [
+        "viaje"
+      ],
+      "citas": []
+    },
+    {
+      "id": "manco-mata-hermanos",
+      "acto": "acto-vi",
+      "fecha": "~1540",
+      "lugar": "vilcabamba",
+      "titulo": "Manco mata a sus propios hermanos Guaipar e Ynguill",
+      "participantes": [
+        "manco-inca",
+        "gonzalo-pizarro",
+        "guaipar",
+        "ynguill-hermano",
+        "pablo-hermano"
+      ],
+      "resumen": "Gonzalo Pizarro y Maldonado traen como escudo a los hermanos de Manco: Pablo, Ynguill y Guaipar. 10 días de pelea en un río. Manco los mata por traición. Cura Ocllo intenta pararlo en vano.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "fratricidio",
+        "traicion"
+      ]
+    },
+    {
+      "id": "muerte-cura-ocllo",
+      "acto": "acto-vi",
+      "fecha": "~1540",
+      "lugar": "tambo",
+      "titulo": "Los españoles asaetean a la coya Cura Ocllo",
+      "participantes": [
+        "cura-ocllo",
+        "vila-orna",
+        "cori-atao"
+      ],
+      "resumen": "Manco escapa a nado. Los españoles capturan a Cura Ocllo. En el camino intentan forzarla; ella se defiende untándose cosas hediondas. En Tambo la asaetean viva. 'Daos prisa a acabarme porque se cumpla vuestro apetito en todo'. También mueren quemados Vila Orna, Coriatao y otros capitanes en Yucay.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "martirio",
+        "asesinato-coya"
+      ]
+    },
+    {
+      "id": "nace-juan-yupanqui",
+      "acto": "acto-v",
+      "fecha": "~1540",
+      "lugar": "lima",
+      "titulo": "Nace Juan Pizarro Yupanqui (de Angelina)",
+      "participantes": [
+        "angelina-yupanqui",
+        "francisco-pizarro"
+      ],
+      "resumen": "Angelina da a luz a Juan Pizarro Yupanqui.",
+      "fuentes": [
+        "pedro-pizarro-1571"
+      ],
+      "tags": [
+        "nacimiento",
+        "mestizo"
+      ],
+      "citas": []
+    },
+    {
+      "id": "cura-ocllo-capturada",
+      "acto": "acto-vi",
+      "fecha": "~1540",
+      "lugar": "tambo",
+      "titulo": "Cura Ocllo capturada por Gonzalo Pizarro",
+      "participantes": [
+        "cura-ocllo",
+        "gonzalo-pizarro"
+      ],
+      "resumen": "Durante una expedición de Gonzalo Pizarro a Vilcabamba, Cura Ocllo es capturada. Manco escapa cruzando un río a nado.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "tags": [
+        "mujer",
+        "captura"
+      ],
+      "citas": []
+    },
+    {
+      "id": "cura-ocllo-defensa-violacion",
+      "acto": "acto-vi",
+      "fecha": "~1540",
+      "lugar": "tambo",
+      "titulo": "Cura Ocllo se defiende de violación con sustancias hediondas",
+      "participantes": [
+        "cura-ocllo"
+      ],
+      "resumen": "En el camino de regreso a Tambo, los soldados españoles intentan forzarla repetidamente. Ella se defiende untándose cosas hediondas para que ninguno se acerque. Esta defensa funciona durante toda la marcha.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "tags": [
+        "mujer",
+        "violencia-sexual",
+        "resistencia"
+      ],
+      "citas": []
+    },
+    {
+      "id": "cura-ocllo-asaeteada",
+      "acto": "acto-vi",
+      "fecha": "~1540",
+      "lugar": "tambo",
+      "titulo": "Cura Ocllo asaeteada en Tambo",
+      "participantes": [
+        "cura-ocllo"
+      ],
+      "resumen": "En Tambo, enfurecidos por no haber podido violarla, los españoles la asaetean (flechan) viva. Ella misma se tapa los ojos con un paño y dice: '¿En una mujer vengáis vuestros enojos? Daos prisa a acabarme porque se cumpla vuestro apetito en todo.' Muere así.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "tags": [
+        "mujer",
+        "muerte",
+        "martirio"
+      ],
+      "citas": []
+    },
+    {
+      "id": "hernando-encarcelado",
+      "acto": "acto-vi",
+      "fecha": "1540",
+      "lugar": "la-mota",
+      "titulo": "Hernando Pizarro encarcelado en castillo de La Mota",
+      "participantes": [
+        "hernando-pizarro"
+      ],
+      "resumen": "Por orden real, encarcelado en el castillo de La Mota (Medina del Campo) por la ejecución de Almagro. Pasaría 20 años preso (1540-1561) — la prisión política más larga de un conquistador.",
+      "fuentes": [
+        "hemming-1970"
+      ],
+      "tags": [
+        "prision"
+      ],
+      "citas": []
+    },
+    {
+      "id": "ines-asesinato-pizarro",
+      "acto": "acto-vi",
+      "fecha": "1541-06-26",
+      "lugar": "lima",
+      "titulo": "Inés testigo del asesinato de Pizarro",
+      "participantes": [
+        "ines-huaylas-yupanqui",
+        "francisco-pizarro"
+      ],
+      "resumen": "Cuando los almagristas asaltan la casa de Pizarro, Inés y Ampuero están cerca. Sus hijos Francisca y Gonzalo escondidos por Inés Muñoz (esposa de Francisco Martín de Alcántara, también asesinado).",
+      "fuentes": [
+        "pedro-pizarro-1571",
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "mujer",
+        "asesinato-pizarro"
+      ],
+      "citas": []
+    },
+    {
+      "id": "francisca-asesinato",
+      "acto": "acto-vi",
+      "fecha": "1541-06-26",
+      "lugar": "lima",
+      "titulo": "Francisca (~7 años) testigo del asesinato de su padre",
+      "participantes": [
+        "francisca-pizarro-yupanqui",
+        "ines-munoz"
+      ],
+      "resumen": "Cuando los almagristas asaltan la casa de Pizarro, Inés Muñoz (su tía política, esposa de Francisco Martín de Alcántara) la esconde junto con su hermanito Gonzalo en una pieza.",
+      "fuentes": [
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "asesinato-pizarro",
+        "mestiza"
+      ],
+      "citas": []
+    },
+    {
+      "id": "7-espanoles-refugiados",
+      "acto": "acto-vi",
+      "fecha": "~1542",
+      "lugar": "vitcos",
+      "titulo": "7 españoles refugiados llegan a Vitcos — Manco los acoge",
+      "participantes": [
+        "manco-inca"
+      ],
+      "resumen": "Vienen huyendo de sus compañeros por delitos. Manco los acoge como criados: les da casas, sus propias mujeres les hacen la comida, come con ellos junto a sí 'como a su persona mesma', se huelga con ellos 'como si fueran sus hermanos propios'. Viven así muchos años.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "refugio",
+        "ironia-tragica"
+      ]
+    },
+    {
+      "id": "soto-muere-mississippi",
+      "acto": "acto-vi",
+      "fecha": "1542-05-21",
+      "lugar": "mississippi",
+      "titulo": "Soto muere en el Mississippi",
+      "participantes": [
+        "hernando-de-soto"
+      ],
+      "resumen": "Muere de fiebres en la orilla del río Mississippi. Sus hombres echan su cuerpo al río para que los indios no lo encuentren.",
+      "fuentes": [],
+      "tags": [
+        "muerte"
+      ],
+      "citas": []
+    },
+    {
+      "id": "angelina-casa-betanzos",
+      "acto": "acto-viii",
+      "fecha": "~1543",
+      "lugar": "cuzco",
+      "titulo": "Angelina casa con Juan de Betanzos",
+      "participantes": [
+        "angelina-yupanqui"
+      ],
+      "resumen": "Tras el asesinato de Pizarro, Angelina queda viuda. Casa con Juan de Betanzos (notario y aprendiz de quechua) en Cuzco. Esta unión es la base de la Suma y narración de los incas (1551), porque Betanzos aprende quechua y la historia con la familia cuzqueña de su esposa.",
+      "fuentes": [
+        "betanzos-1551"
+      ],
+      "tags": [
+        "mujer",
+        "matrimonio"
+      ],
+      "citas": []
+    },
+    {
+      "id": "asesinato-manco-herron",
+      "acto": "acto-vi",
+      "fecha": "~1545",
+      "lugar": "vitcos",
+      "titulo": "ASESINATO DE MANCO INCA jugando al herrón",
+      "participantes": [
+        "manco-inca",
+        "titu-cusi"
+      ],
+      "resumen": "Una india llamada Buba advirtió a Manco que los 7 españoles refugiados planeaban matarlo, pero no creyó. Jugando al herrón, los 7 cargan sobre él con puñales y espadas. Manco cae con muchas heridas. Titu Cusi niño intenta correr a ayudarlo; le arrojan una lanza, 'erraron poco que no me mataron a mí también'. El capitán Rimache Yupanqui atrapa a los asesinos; los mata cruelmente.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "asesinato",
+        "traicion",
+        "herron",
+        "buba"
+      ]
+    },
+    {
+      "id": "discurso-final-manco",
+      "acto": "acto-vi",
+      "fecha": "~1545",
+      "lugar": "vitcos",
+      "titulo": "Manco vive 3 días — discurso final y herencia a Titu Cusi",
+      "participantes": [
+        "manco-inca",
+        "titu-cusi"
+      ],
+      "resumen": "A Titu Cusi: 'Manda que perpetuamente nunca tengas ley perfecta con semejante gente que esta... No consientas que entren en tu tierra, aunque más te conviden con palabras, porque sus palabras melosas me engañaron a mí'. Encomienda hermanos, madre, indios.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "discurso-testamento"
+      ]
+    },
+    {
+      "id": "buba-advierte-manco",
+      "acto": "acto-vi",
+      "fecha": "~1545",
+      "lugar": "vitcos",
+      "titulo": "Buba advierte a Manco del plan de los 7 españoles",
+      "participantes": [
+        "buba",
+        "manco-inca"
+      ],
+      "resumen": "Buba, una india pareja de uno de los siete españoles refugiados, advierte a Manco días antes del asesinato que los siete planean matarlo. Manco NO le cree y sigue tratando a los refugiados 'como hermanos propios'.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "tags": [
+        "mujer",
+        "advertencia",
+        "manco"
+      ],
+      "citas": []
+    },
+    {
+      "id": "betanzos-suma-completada",
+      "acto": "acto-viii",
+      "fecha": "1551",
+      "lugar": "cuzco",
+      "titulo": "Betanzos completa la Suma y narración",
+      "participantes": [
+        "angelina-yupanqui"
+      ],
+      "resumen": "Juan de Betanzos completa la 'Suma y narración de los incas' usando los relatos de Angelina y su familia cuzqueña. Es la fuente más rica de la perspectiva Atahualpa/cuzqueña.",
+      "fuentes": [
+        "betanzos-1551"
+      ],
+      "tags": [
+        "mujer",
+        "fuente"
+      ],
+      "citas": []
+    },
+    {
+      "id": "francisca-viaja-españa",
+      "acto": "acto-viii",
+      "fecha": "1551",
+      "lugar": "lima",
+      "titulo": "Francisca sale del Perú hacia España",
+      "participantes": [
+        "francisca-pizarro-yupanqui"
+      ],
+      "resumen": "Por orden del rey, Francisca y sus medio hermanos (los hijos de Angelina) son enviados a España para sacarlos del Perú revuelto. Llegan a Sevilla ese año.",
+      "fuentes": [
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "viaje"
+      ],
+      "citas": []
+    },
+    {
+      "id": "hernando-casa-francisca",
+      "acto": "acto-viii",
+      "fecha": "1552-10-10",
+      "lugar": "la-mota",
+      "titulo": "Hernando casa con su sobrina Francisca Pizarro Yupanqui",
+      "participantes": [
+        "hernando-pizarro",
+        "francisca-pizarro-yupanqui"
+      ],
+      "resumen": "En La Mota, todavía preso, Hernando casa con Francisca Pizarro Yupanqui, su sobrina mestiza (hija de Pizarro e Inés Huaylas). Él tiene ~50, ella ~17. Matrimonio escandaloso pero legal con dispensa papal. Justifica la fortuna unida del linaje.",
+      "fuentes": [
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "matrimonio",
+        "mestiza"
+      ],
+      "citas": []
+    },
+    {
+      "id": "francisca-casa-hernando",
+      "acto": "acto-viii",
+      "fecha": "1552-10-10",
+      "lugar": "la-mota",
+      "titulo": "Francisca casa con su tío Hernando en La Mota",
+      "participantes": [
+        "francisca-pizarro-yupanqui",
+        "hernando-pizarro"
+      ],
+      "resumen": "Casa en el castillo donde su tío Hernando está preso. Él tiene 50+, ella 17. Matrimonio estratégico para mantener la fortuna Pizarro en la familia. Tendrán 5 hijos.",
+      "fuentes": [
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "matrimonio"
+      ],
+      "citas": []
+    },
+    {
+      "id": "ines-muere",
+      "acto": "acto-viii",
+      "fecha": "~1556",
+      "lugar": "lima",
+      "titulo": "Muere Inés Huaylas Yupanqui",
+      "participantes": [
+        "ines-huaylas-yupanqui"
+      ],
+      "resumen": "Muere en Lima ~1556 (algunas fuentes 1559). Sus descendientes por la rama Ampuero forman una rama nobiliaria limeña.",
+      "fuentes": [
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "mujer",
+        "muerte"
+      ],
+      "citas": []
+    },
+    {
+      "id": "sayri-tupac-sale",
+      "acto": "acto-vii",
+      "fecha": "1557-1561",
+      "lugar": "vilcabamba",
+      "titulo": "Sayri Túpac sale a negociar — muere en 1561",
+      "participantes": [
+        "titu-cusi",
+        "sayri-tupac"
+      ],
+      "resumen": "Titu Cusi envía a Sayri Túpac como embajador experimental tras la oferta del Virrey Marqués de Cañete vía fray Melchor de los Reyes. Sayri sale, recibe el valle de Yucay. Muere cristiano en 1561. Titu Cusi inicialmente teme asesinato; Martín de Pando y Juan de Betanzos le confirman muerte natural.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "negociacion",
+        "embajada"
+      ]
+    },
+    {
+      "id": "beatriz-nace",
+      "acto": "acto-vii",
+      "fecha": "1558",
+      "lugar": "yucay",
+      "titulo": "Nace Beatriz Clara Coya",
+      "participantes": [
+        "beatriz-clara-coya",
+        "sayri-tupac",
+        "maria-cusi-huarcay"
+      ],
+      "resumen": "Nace en Yucay. Padre: Sayri Túpac (Sapa Inca de Vilcabamba que negoció su salida en 1557). Madre: María Cusi Huarcay (hermana-esposa de Sayri Túpac).",
+      "fuentes": [
+        "calancha-1638",
+        "hemming-1970"
+      ],
+      "tags": [
+        "mujer",
+        "nacimiento",
+        "mestiza"
+      ],
+      "citas": []
+    },
+    {
+      "id": "beatriz-huerfana",
+      "acto": "acto-vii",
+      "fecha": "1561",
+      "lugar": "yucay",
+      "titulo": "Muere Sayri Túpac, Beatriz huérfana a los 3 años",
+      "participantes": [
+        "beatriz-clara-coya",
+        "sayri-tupac"
+      ],
+      "resumen": "Muere su padre Sayri Túpac. Beatriz queda como heredera única de la encomienda de Yucay con 3 años.",
+      "fuentes": [
+        "calancha-1638"
+      ],
+      "tags": [
+        "mujer",
+        "huerfana"
+      ],
+      "citas": []
+    },
+    {
+      "id": "hernando-liberado",
+      "acto": "acto-viii",
+      "fecha": "1561",
+      "lugar": "la-mota",
+      "titulo": "Hernando liberado de La Mota",
+      "participantes": [
+        "hernando-pizarro"
+      ],
+      "resumen": "Tras 20 años preso, finalmente liberado. Va a Trujillo (Extremadura) a vivir con Francisca y los hijos.",
+      "fuentes": [
+        "hemming-1970"
+      ],
+      "tags": [
+        "liberacion"
+      ],
+      "citas": []
+    },
+    {
+      "id": "capitulacion-acobamba",
+      "acto": "acto-vii",
+      "fecha": "1565-1566",
+      "lugar": "acobamba",
+      "titulo": "Capitulación de Acobamba",
+      "participantes": [
+        "titu-cusi"
+      ],
+      "resumen": "Tras viajes del tesorero García de Melo y negociaciones con Lope García de Castro, se firma. Felipe Quispe Tito (hijo de Titu Cusi) se casará con su prima doña Beatriz. Diego Rodríguez de Figueroa queda como corregidor de Vilcabamba; Martín de Pando como secretario. Titu Cusi acepta sacerdotes pero no abandona Vilcabamba.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "acuerdo-politico"
+      ]
+    },
+    {
+      "id": "bautismo-titu-cusi",
+      "acto": "acto-vii",
+      "fecha": "1568-08-12",
+      "lugar": "rayangalla",
+      "titulo": "Bautismo de Titu Cusi en Rayangalla",
+      "participantes": [
+        "titu-cusi"
+      ],
+      "resumen": "Tras pedir específicamente al prior agustino, fray Juan de Vivero llega el 12 ago 1568. 14 días de instrucción. El día de San Agustín lo bautiza: Don Diego de Castro. Padrino Gonzalo Pérez de Vivero. Madrina doña Angelina Cica Ocllo. Queda fray Marcos García en la tierra.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "bautismo",
+        "agustinos"
+      ]
+    },
+    {
+      "id": "firma-instruccion",
+      "acto": "acto-vii",
+      "fecha": "1570-02-06",
+      "lugar": "vilcabamba",
+      "titulo": "Se firma la Instrucción en San Salvador de Vilcabamba",
+      "participantes": [
+        "titu-cusi",
+        "fray-marcos-garcia",
+        "martin-de-pando",
+        "fray-diego-ortiz"
+      ],
+      "resumen": "Dictada por Titu Cusi, compuesta por fray Marcos García, escrita por Martín de Pando. Testigos: fray Diego Ortiz y tres capitanes (Suta Yupanqui, Rimache Yupanqui, Sullca Varac). Destinada a Lope García de Castro para presentar ante Felipe II.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "documento-fundacional"
+      ]
+    },
+    {
+      "id": "muerte-titu-cusi",
+      "acto": "acto-vii",
+      "fecha": "~1571",
+      "lugar": "vilcabamba",
+      "titulo": "Muerte de Titu Cusi — consecuencias violentas",
+      "participantes": [
+        "titu-cusi",
+        "fray-diego-ortiz",
+        "martin-de-pando"
+      ],
+      "resumen": "Titu Cusi muere de pulmonía (según Calancha). Los nativos culpan al sacerdote Diego Ortiz y lo matan tras feroz martirio. También matan a Martín de Pando. Rechazan embajada del Virrey Toledo y matan al emisario Tilano de Anaya.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "muerte",
+        "martirio-agustinos"
+      ]
+    },
+    {
+      "id": "caida-vilcabamba",
+      "acto": "acto-vii",
+      "fecha": "1572-09",
+      "lugar": "vilcabamba",
+      "titulo": "Caída definitiva de Vilcabamba — ejecución de Túpac Amaru",
+      "participantes": [
+        "tupac-amaru-i",
+        "francisco-de-toledo",
+        "martin-hurtado-de-arbieto"
+      ],
+      "resumen": "Toledo envía a Martín Hurtado de Arbieto. El ejército toma Vilcabamba. Capturan a Túpac Amaru. Toledo lo manda ejecutar en el Cuzco. Se funda San Francisco de la Victoria de Vilcabamba. 40 años de resistencia inca terminan.",
+      "fuentes": [
+        "titu-cusi-1570"
+      ],
+      "citas": [],
+      "tags": [
+        "ejecucion",
+        "fin-resistencia-inca"
+      ]
+    },
+    {
+      "id": "beatriz-matrimonio-loyola",
+      "acto": "acto-vii",
+      "fecha": "1572-09",
+      "lugar": "cuzco",
+      "titulo": "Beatriz (14 años) casa con García Óñez de Loyola",
+      "participantes": [
+        "beatriz-clara-coya"
+      ],
+      "resumen": "Tras la caída de Vilcabamba y ejecución de Túpac Amaru, Beatriz es presionada al matrimonio con Martín García Óñez de Loyola (sobrino-nieto de San Ignacio, capitán que capturó a Túpac Amaru). Unión estratégica: linaje Loyola obtiene sangre Inca; el imperio integra a la dinastía vencida.",
+      "fuentes": [
+        "murua-1613",
+        "hemming-1970"
+      ],
+      "tags": [
+        "mujer",
+        "matrimonio-forzado"
+      ],
+      "citas": []
+    },
+    {
+      "id": "angelina-muere",
+      "acto": "acto-viii",
+      "fecha": "~1576",
+      "lugar": "cuzco",
+      "titulo": "Muere Angelina Yupanqui",
+      "participantes": [
+        "angelina-yupanqui"
+      ],
+      "resumen": "Muere en Cuzco. Su descendencia se integra a la nobleza cuzqueña colonial.",
+      "fuentes": [
+        "betanzos-1551"
+      ],
+      "tags": [
+        "mujer",
+        "muerte"
+      ],
+      "citas": []
+    },
+    {
+      "id": "hernando-muere",
+      "acto": "acto-viii",
+      "fecha": "1578",
+      "lugar": "trujillo-extremadura",
+      "titulo": "Muere Hernando Pizarro en Trujillo",
+      "participantes": [
+        "hernando-pizarro"
+      ],
+      "resumen": "Muere a los ~76 años, último de los Pizarro vivos. Francisca le sobrevive y vive hasta 1598 en Madrid.",
+      "fuentes": [
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "muerte"
+      ],
+      "citas": []
+    },
+    {
+      "id": "nace-ana-maria-loyola",
+      "acto": "acto-viii",
+      "fecha": "1593",
+      "lugar": "lima",
+      "titulo": "Nace Ana María Lorenza García de Loyola Coya",
+      "participantes": [
+        "beatriz-clara-coya"
+      ],
+      "resumen": "Nace la hija de Beatriz, primera marquesa de Oropesa por descendencia, transmitiendo la sangre Inca a la nobleza europea.",
+      "fuentes": [
+        "hemming-1970"
+      ],
+      "tags": [
+        "mujer",
+        "nacimiento"
+      ],
+      "citas": []
+    },
+    {
+      "id": "francisca-muere",
+      "acto": "acto-viii",
+      "fecha": "1598-05-30",
+      "lugar": "madrid",
+      "titulo": "Muere Francisca Pizarro Yupanqui en Madrid",
+      "participantes": [
+        "francisca-pizarro-yupanqui"
+      ],
+      "resumen": "Muere en Madrid a los 63 años. Termina sus días como una de las mujeres más ricas y respetadas de Castilla, con honores virreinales.",
+      "fuentes": [
+        "rostworowski-francisca-pizarro"
+      ],
+      "tags": [
+        "muerte"
+      ],
+      "citas": []
+    },
+    {
+      "id": "beatriz-muere",
+      "acto": "acto-viii",
+      "fecha": "1600",
+      "lugar": "lima",
+      "titulo": "Muere Beatriz Clara Coya",
+      "participantes": [
+        "beatriz-clara-coya"
+      ],
+      "resumen": "Muere en Lima. Su retrato (junto al de Óñez de Loyola y los descendientes) decora el famoso cuadro del Beaterio del Cuzco — ícono del mestizaje noble.",
+      "fuentes": [
+        "hemming-1970"
+      ],
+      "tags": [
+        "mujer",
+        "muerte"
+      ],
+      "citas": []
+    }
+  ]
+}
