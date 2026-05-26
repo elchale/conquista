@@ -3,7 +3,6 @@ import path from "node:path";
 import matter from "gray-matter";
 
 export const CONTENT_ROOT = path.join(process.cwd(), "content");
-export const DOCS_ROOT = path.join(process.cwd(), "docs");
 
 export const CONTENT_TYPES = [
   "personajes",

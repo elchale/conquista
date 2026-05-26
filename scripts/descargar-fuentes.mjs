@@ -19,7 +19,10 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const FUENTES_PATH = path.join(ROOT, "content", "data", "fuentes.json");
-const DOCS_DIR = path.join(ROOT, "docs");
+// PDFs are served as static assets, so they live under public/. The public/
+// prefix is stripped when writing pdf_local so the web path stays "/docs/...".
+const PUBLIC_DIR = path.join(ROOT, "public");
+const DOCS_DIR = path.join(PUBLIC_DIR, "docs");
 
 const TIPO_DIR = {
   primaria: "primarias",
@@ -128,7 +131,7 @@ for (const { f, pick } of candidatas) {
     console.log(`  ✓ ya existe: ${f.id} (${(fs.statSync(target).size / 1024 / 1024).toFixed(1)} MB)`);
     results.saltadas.push(f.id);
     if (!f.pdf_local) {
-      f.pdf_local = path.relative(ROOT, target).replace(/\\/g, "/");
+      f.pdf_local = path.relative(PUBLIC_DIR, target).replace(/\\/g, "/");
     }
     continue;
   }

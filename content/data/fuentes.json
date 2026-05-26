@@ -700,7 +700,8 @@
         }
       ],
       "relevancia": "Unico testimonio escrito de un Inca soberano. Titu Cusi era hijo de Manco Inca y gobernaba Vilcabamba (1563-1571). Narra la conquista desde la perspectiva indigena y propone negociacion con la corona.",
-      "notas": "Dictado en quechua, traducido por el agustino Marcos Garcia y copiado por el mestizo Martin de Pando. Manuscrito en el Monasterio de El Escorial. La edicion critica de Regalado 1992 NO se encuentra abiertamente como PDF; solo articulos derivados."
+      "notas": "Dictado en quechua, traducido por el agustino Marcos Garcia y copiado por el mestizo Martin de Pando. Manuscrito en el Monasterio de El Escorial. La edicion critica de Regalado 1992 NO se encuentra abiertamente como PDF; solo articulos derivados.",
+      "pdf_local": "docs/primarias/titu-cusi-1570.pdf"
     },
     {
       "id": "pachacuti-yamqui",
@@ -723,7 +724,8 @@
         }
       ],
       "relevancia": "Curaca indigena cristianizado de la region Canas-Canchis. Mezcla castellano rudimentario, quechua y aimara. Contiene el famoso dibujo del altar mayor del Coricancha y el sistema cosmologico andino.",
-      "notas": "Manuscrito en BNE Madrid, ms. 3169. La edicion Duviols-Itier 1993 (IFEA) NO es open access (requiere institucion). Edicion Jimenez de la Espada 1879 esta en dominio publico pero falta ubicar facsimil en archive.org."
+      "notas": "Manuscrito en BNE Madrid, ms. 3169. La edicion Duviols-Itier 1993 (IFEA) NO es open access (requiere institucion). Edicion Jimenez de la Espada 1879 esta en dominio publico pero falta ubicar facsimil en archive.org.",
+      "pdf_local": "docs/primarias/pachacuti-yamqui.pdf"
     },
     {
       "id": "ortiz-zuniga-1562",
@@ -1112,6 +1114,275 @@
       ],
       "relevancia": "Sintesis arqueologica de la cultura Chachapoya por su mayor investigador peruano. Incluye los Pinchudos y Kuelap.",
       "notas": ""
+    },
+    {
+      "id": "samano-xerez-1528",
+      "tipo": "primaria",
+      "categoria": "relacion_descubrimiento",
+      "autor": "Juan de Samano (atribuida) / Francisco de Xerez",
+      "titulo": "Relacion Samano-Xerez: relacion de los primeros descubrimientos de Francisco Pizarro y Diego de Almagro",
+      "fecha_original": "~1528",
+      "edicion_recomendada": "Editada por Raul Porras Barrenechea en 'Las relaciones primitivas de la conquista del Peru' (Paris, 1937). Tambien en la Coleccion de Documentos Ineditos de Indias.",
+      "idioma": "es",
+      "urls": [],
+      "relevancia": "El testimonio documental mas temprano del descubrimiento del Peru: el viaje de reconocimiento del piloto Bartolome Ruiz, el primer contacto con la balsa de Tumbes y las primeras noticias de la riqueza del Tahuantinsuyo, anteriores a la conquista.",
+      "notas": "Relacion muy breve atribuida al secretario real Juan de Samano a partir de informes de Xerez. NO localizada como PDF libre independiente; sobrevive en compilaciones (Porras 1937; Coleccion de Documentos Ineditos). Catalogada por completitud."
+    },
+    {
+      "id": "sancho-1534",
+      "tipo": "primaria",
+      "categoria": "cronista_testigo_hispano",
+      "autor": "Pedro Sancho de la Hoz",
+      "titulo": "Relacion para Su Majestad de lo sucedido en la conquista (continuacion de la relacion de Xerez)",
+      "fecha_original": 1534,
+      "edicion_recomendada": "Traduccion al ingles de Philip Ainsworth Means, 'An Account of the Conquest of Peru' (Cortes Society, Nueva York, 1917). Original espanol perdido; preservado en la traduccion italiana de G. B. Ramusio (1556).",
+      "idioma": "en",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/accountofconques00sancuoft",
+          "tipo": "landing",
+          "edicion_tipo": "traduccion_ingles",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Traduccion Means, Cortes Society 1917. PDF ~8 MB."
+        }
+      ],
+      "relevancia": "Sancho sucedio a Xerez como secretario de Francisco Pizarro y firmo el acta del reparto del rescate. Su relacion oficial continua el relato desde la ejecucion de Atahualpa hasta la marcha a Cuzco e incluye la primera descripcion detallada de la ciudad del Cuzco en el momento de la conquista.",
+      "notas": "El original espanol se perdio; el texto sobrevive a traves de la traduccion italiana de Ramusio (Navigationi et Viaggi, 1556) y de ahi a las traducciones modernas.",
+      "pdf_local": "public/docs/primarias/sancho-1534.pdf"
+    },
+    {
+      "id": "oviedo-1535",
+      "tipo": "primaria",
+      "categoria": "cronista_oficial_hispano",
+      "autor": "Gonzalo Fernandez de Oviedo y Valdes",
+      "titulo": "Historia general y natural de las Indias, islas y tierra firme del mar Oceano",
+      "fecha_original": 1535,
+      "lugar_original": "Sevilla (primera parte) / Madrid (ed. completa postuma)",
+      "edicion_recomendada": "Edicion de la Real Academia de la Historia (Jose Amador de los Rios), Madrid 1851-1855, 4 tomos. El material del Peru esta en el libro XLVI (tomo IV).",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/historiageneral04fernguat",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Tomo IV de la ed. RAH 1855, que contiene los libros sobre el Peru (incl. la carta de Hernando Pizarro)."
+        }
+      ],
+      "relevancia": "Primer cronista oficial de Indias. Su libro XLVI trata del Peru y reproduce textualmente la carta-relacion de Hernando Pizarro de 1533 sobre la captura de Atahualpa, documento que de otro modo se habria perdido.",
+      "notas": "Obra enciclopedica. Solo la primera parte se imprimio en vida (1535); la edicion completa es postuma. El Peru esta en el tomo IV de la ed. RAH.",
+      "pdf_local": "public/docs/primarias/oviedo-1535.pdf"
+    },
+    {
+      "id": "lopez-gomara-1552",
+      "tipo": "primaria",
+      "categoria": "cronista_hispano",
+      "autor": "Francisco Lopez de Gomara",
+      "titulo": "Historia general de las Indias (Primera parte: Hispania Victrix)",
+      "fecha_original": 1552,
+      "lugar_original": "Zaragoza",
+      "edicion_recomendada": "Edicion Calpe (Biblioteca Calleja), Madrid 1922, 2 tomos. El Peru esta en el tomo I (historia general); el tomo II es la Conquista de Mexico.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/historigeneralde01lprich",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Tomo I de la ed. Calpe 1922, que incluye los capitulos sobre el Peru (Pizarro y Almagro)."
+        }
+      ],
+      "relevancia": "Capellan de Hernan Cortes; nunca estuvo en America. Sintesis de gran difusion en la Europa del XVI; sus capitulos sobre el Peru se basan en informacion de segunda mano pero fueron muy influyentes.",
+      "notas": "Prohibida su reimpresion por cedula real de 1553. El Peru ocupa la parte general (tomo I de la ed. de 1922); el tomo II es la Conquista de Mexico.",
+      "pdf_local": "public/docs/primarias/lopez-gomara-1552.pdf"
+    },
+    {
+      "id": "molina-almagrista-1552",
+      "tipo": "primaria",
+      "categoria": "cronista_testigo_hispano",
+      "autor": "Cristobal de Molina ('el Almagrista' / 'el Chileno')",
+      "titulo": "Relacion de muchas cosas acaescidas en el Peru (Conquista y poblacion del Piru)",
+      "fecha_original": "~1552",
+      "edicion_recomendada": "Edicion de Francisco Esteve Barba en 'Cronicas peruanas de interes indigena', BAE tomo CCIX (Madrid 1968).",
+      "idioma": "es",
+      "urls": [],
+      "relevancia": "Testigo presencial muy critico con la crueldad de los conquistadores y con el trato a los indios. Vision 'desde dentro' de las huestes pero moralmente disidente.",
+      "notas": "NO confundir con Cristobal de Molina 'el Cuzqueno' (1575). NO localizado como PDF libre independiente; disponible en la compilacion BAE 209 de Esteve Barba. Catalogado por completitud."
+    },
+    {
+      "id": "las-casas-1552",
+      "tipo": "primaria",
+      "categoria": "tratado_denuncia",
+      "autor": "Fray Bartolome de las Casas",
+      "titulo": "Brevisima relacion de la destruccion de las Indias",
+      "fecha_original": 1552,
+      "lugar_original": "Sevilla",
+      "edicion_recomendada": "Edicion princeps Sevilla 1552. Multiples ediciones modernas (Catedra, etc.).",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/brevisima-relacion-de-la-destruccion-de-las-indias",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Texto integro. PDF ~4 MB."
+        }
+      ],
+      "relevancia": "Denuncia sistematica de las atrocidades de la conquista presentada a Carlos V. Su apartado sobre el Peru (los 'grandes reinos') describe la violencia contra Atahualpa y la poblacion andina. Texto fundacional del debate sobre la justicia de la conquista.",
+      "notas": "No es una cronica narrativa sino un tratado polemico; base de la llamada 'leyenda negra'. Imprescindible para entender la critica contemporanea a la conquista.",
+      "pdf_local": "public/docs/primarias/las-casas-1552.pdf"
+    },
+    {
+      "id": "diego-fernandez-1571",
+      "tipo": "primaria",
+      "categoria": "cronista_oficial_hispano",
+      "autor": "Diego Fernandez de Palencia ('el Palentino')",
+      "titulo": "Primera y segunda parte de la Historia del Peru",
+      "fecha_original": 1571,
+      "lugar_original": "Sevilla",
+      "edicion_recomendada": "Edicion princeps Sevilla 1571. Edicion moderna: Juan Perez de Tudela, BAE tomos CLXIV-CLXV (Madrid 1963).",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/primera-y-segunda-parte-de-la-historia-del-peru-parte-1-2",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Las dos partes en un solo PDF (~13 MB)."
+        },
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/bub_gb_6if9F5fbJaoC",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_princeps",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Facsimil de la edicion princeps Sevilla 1571."
+        }
+      ],
+      "relevancia": "Cronista nombrado para narrar las guerras civiles del Peru. Relato contemporaneo de referencia sobre la rebelion de Gonzalo Pizarro, la llegada de La Gasca y la rebelion de Francisco Hernandez Giron.",
+      "notas": "Escrita por encargo oficial con acceso a documentacion de la epoca.",
+      "pdf_local": "public/docs/primarias/diego-fernandez-1571.pdf"
+    },
+    {
+      "id": "cabello-valboa-1586",
+      "tipo": "primaria",
+      "categoria": "cronista_hispano",
+      "autor": "Miguel Cabello Valboa (Balboa)",
+      "titulo": "Miscelanea antartica: una historia del Peru antiguo",
+      "fecha_original": 1586,
+      "edicion_recomendada": "Edicion de la Universidad Nacional Mayor de San Marcos (Instituto de Etnologia), Lima 1951.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/miscelanea-antartica",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Texto integro. PDF ~6 MB."
+        }
+      ],
+      "relevancia": "Historia universal que desemboca en la prehistoria andina y la genealogia de los incas. Fuente independiente para la cronologia incaica y para tradiciones del norte (Quito), incluida la leyenda de Quilaco y Curicuillor.",
+      "notas": "Clerigo de larga estancia en el norte andino. Util para contrastar las genealogias incas de Sarmiento, Betanzos y Cabello Valboa.",
+      "pdf_local": "public/docs/primarias/cabello-valboa-1586.pdf"
+    },
+    {
+      "id": "lizarraga-1605",
+      "tipo": "primaria",
+      "categoria": "cronista_eclesiastico",
+      "autor": "Fray Reginaldo de Lizarraga (Baltasar de Ovando)",
+      "titulo": "Descripcion breve de toda la tierra del Peru, Tucuman, Rio de la Plata y Chile",
+      "fecha_original": "~1605",
+      "edicion_recomendada": "Edicion de la Nueva Biblioteca de Autores Espanoles, tomo XV (Madrid 1909). Edicion moderna: Historia 16, Madrid 1986.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/descripcion-breve-de-toda-la-tierra-del-peru-tucuman-rio-de-la-plata-y-chile",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Texto integro. PDF ~9 MB."
+        }
+      ],
+      "relevancia": "Dominico que recorrio el virreinato durante decadas. Descripcion geografica y moral de ciudades, pueblos, caminos y costumbres de la poblacion andina y espanola a fines del siglo XVI.",
+      "notas": "Fuente valiosa por sus observaciones directas de la geografia humana del virreinato del Peru.",
+      "pdf_local": "public/docs/primarias/lizarraga-1605.pdf"
+    },
+    {
+      "id": "agustinos-huamachuco-1560",
+      "tipo": "primaria",
+      "categoria": "cronista_extirpacion",
+      "autor": "Primeros religiosos agustinos (anonimo colectivo)",
+      "titulo": "Relacion de la religion y ritos del Peru hecha por los primeros religiosos agustinos",
+      "fecha_original": 1560,
+      "edicion_recomendada": "Coleccion de Documentos Ineditos del Archivo de Indias, tomo III (Madrid 1865). Edicion critica: Lucila Castro de Trelles, PUCP, Lima 1992.",
+      "idioma": "es",
+      "urls": [],
+      "relevancia": "El testimonio mas temprano y detallado sobre la religion, las huacas y los mitos de la region de Huamachuco (sierra norte). Documento clave de la primera extirpacion de idolatrias.",
+      "notas": "NO localizado como PDF libre independiente; en la Coleccion de Documentos Ineditos del Archivo de Indias t. III (1865) y en la ed. critica de Castro de Trelles (PUCP 1992). Catalogado por completitud."
+    },
+    {
+      "id": "montesinos-1644",
+      "tipo": "primaria",
+      "categoria": "cronista_eclesiastico",
+      "autor": "Fernando de Montesinos",
+      "titulo": "Memorias antiguas historiales y politicas del Peru",
+      "fecha_original": "~1644",
+      "edicion_recomendada": "Edicion de Marcos Jimenez de la Espada, Coleccion de Libros Espanoles Raros o Curiosos, Madrid 1882.",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/memoriasantigua01tolegoog",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Ed. Jimenez de la Espada 1882. PDF ~4 MB."
+        }
+      ],
+      "relevancia": "Celebre y controvertida por su larga lista de reyes (una supuesta dinastia preincaica de unos cien soberanos), que extiende la cronologia andina muy atras en el tiempo.",
+      "notas": "La lista de reyes es vista con escepticismo por la historiografia moderna, pero la obra es un hito en el debate sobre la cronologia andina.",
+      "pdf_local": "public/docs/primarias/montesinos-1644.pdf"
+    },
+    {
+      "id": "herrera-decadas",
+      "tipo": "primaria",
+      "categoria": "cronista_oficial_hispano",
+      "autor": "Antonio de Herrera y Tordesillas",
+      "titulo": "Historia general de los hechos de los castellanos en las islas y tierra firme del mar Oceano (Decadas)",
+      "fecha_original": "1601-1615",
+      "lugar_original": "Madrid",
+      "edicion_recomendada": "Edicion de Madrid 1726-1730 (4 tomos). La conquista del Peru esta principalmente en la Decada V (tomo III).",
+      "idioma": "es",
+      "urls": [
+        {
+          "plataforma": "archive.org",
+          "url": "https://archive.org/details/generaldehechosd03herr",
+          "tipo": "landing",
+          "edicion_tipo": "edicion_modernizada",
+          "acceso": "libre",
+          "verificado": true,
+          "nota": "Tomo III de la ed. 1726 (Decadas V-VI), que cubre la conquista del Peru. PDF ~85 MB."
+        }
+      ],
+      "relevancia": "Cronista Mayor de Indias. Compilacion oficial que integra y ordena fuentes anteriores (Cieza, Cataño y otras hoy perdidas). La Decada V narra la conquista del Peru y las guerras civiles.",
+      "notas": "Obra monumental en 8 decadas (4 tomos). Aqui se cataloga el tomo III por contener el Peru; el conjunto completo es muy voluminoso.",
+      "pdf_local": "public/docs/primarias/herrera-decadas.pdf"
     }
   ],
   "fuentes_no_encontradas": [

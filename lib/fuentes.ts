@@ -11,16 +11,22 @@ const FUENTES_PATH = path.join(
 export interface FuenteUrl {
   plataforma: string;
   url: string;
-  tipo?: "pdf" | "html" | "epub" | "facsimil";
+  tipo?: "pdf" | "html" | "epub" | "facsimil" | "landing";
+  edicion_tipo?: string;
+  acceso?: "libre" | "borrow" | "restringido" | string;
   verificado?: boolean;
+  nota?: string;
 }
 
 export interface Fuente {
   id: string;
-  tipo: "primaria" | "secundaria" | "visita" | "ed-critica" | "otros";
+  // tipo is open-ended in the catalog (e.g. "primaria", "secundaria_moderna").
+  tipo: string;
+  categoria?: string;
   autor: string;
   titulo: string;
   fecha_original?: number | string;
+  lugar_original?: string;
   edicion_recomendada?: string;
   idioma?: string;
   pdf_local?: string;
